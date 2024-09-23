@@ -1,0 +1,547 @@
+import {defineType, defineField} from 'sanity';
+
+import {sharedQuestionFields, sharedQuestionFieldsets} from './sharedQuestionFields';
+
+export default defineType({
+    name: 'ecg',
+    type: 'document',
+    title: 'ECG Question',
+    fieldsets: [
+        ...sharedQuestionFieldsets,
+        {
+            name: 'normal_angiogram',
+            title: 'Normal Angiogram',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'severe_stenosis',
+            title: 'Severe Stenosis',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'moderate_stenosis',
+            title: 'Moderate Stenosis',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'insignificant_stenosis',
+            title: 'Insignificant Stenosis',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'total_occlusion',
+            title: 'Total Occlusion',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'filled_by_collaterals',
+            title: 'Filled by Collaterals',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'coronary_spasm',
+            title: 'Coronary Spasm',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'myocardial_bridging',
+            title: 'Myocardial Bridging',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'anomalous_coronary_origin',
+            title: 'Anomalous Coronary Origin',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'coronary_fistula',
+            title: 'Coronary Fistula',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'coronary_artery_thrombus_present',
+            title: 'Coronary Artery Thrombus Present',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'bypass_graft',
+            title: 'Bypass Graft',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'dissection',
+            title: 'Dissection',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'severe_ectasia',
+            title: 'Severe Ectasia / Aneurysm',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'stent_occluded',
+            title: 'Occluded Coronary Stent',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+        {
+            name: 'patent_coronary_stent',
+            title: 'Patent Coronary Stent',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            },
+        },
+    ],
+    fields: [
+        // base fields (title, text, images, videos, etc.)
+        ...sharedQuestionFields,
+        defineField({
+            name: 'index',
+            type: 'string',
+            title: 'Question Number (Index)',
+            description: 'The question number (index) for this Angiogram question (e.g. "1", "2A", "2B", "3", etc.)',
+            validation: (Rule) => Rule.required(),
+        }),
+        defineField({
+            name: '01_normal_angiogram',
+            type: 'number',
+            title: 'Normal Angiogram',
+            fieldset: 'normal_angiogram',
+        }),
+        defineField({
+            name: '12_left_main_severe',
+            type: 'number',
+            title: 'Left Main - Severe Stenosis',
+            fieldset: 'severe_stenosis',
+        }),
+        defineField({
+            name: '13_left_anterior_severe',
+            type: 'number',
+            title: 'Left Anterior - Severe Stenosis',
+            fieldset: 'severe_stenosis',
+        }),
+        defineField({
+            name: '14_left_circumflex_severe',
+            type: 'number',
+            title: 'Left Circumflex - Severe Stenosis',
+            fieldset: 'severe_stenosis',
+        }),
+        defineField({
+            name: '15_right_severe',
+            type: 'number',
+            title: 'Right - Severe Stenosis',
+            fieldset: 'severe_stenosis',
+        }),
+        defineField({
+            name: '16_bypass_severe',
+            type: 'number',
+            title: 'Bypass Graft - Severe Stenosis',
+            fieldset: 'severe_stenosis',
+        }),
+        defineField({
+            name: '07_left_main_moderate',
+            type: 'number',
+            title: 'Left Main - Moderate Stenosis',
+            fieldset: 'moderate_stenosis',
+        }),
+        defineField({
+            name: '08_left_anterior_moderate',
+            type: 'number',
+            title: 'Left Anterior - Moderate Stenosis',
+            fieldset: 'moderate_stenosis',
+        }),
+        defineField({
+            name: '09_left_circumflex_moderate',
+            type: 'number',
+            title: 'Left Circumflex - Moderate Stenosis',
+            fieldset: 'moderate_stenosis',
+        }),
+        defineField({
+            name: '10_right_moderate',
+            type: 'number',
+            title: 'Right - Moderate Stenosis',
+            fieldset: 'moderate_stenosis',
+        }),
+        defineField({
+            name: '11_bypass_moderate',
+            type: 'number',
+            title: 'Bypass Graft - Moderate Stenosis',
+            fieldset: 'moderate_stenosis',
+        }),
+        defineField({
+            name: '02_left_main_insignificant',
+            type: 'number',
+            title: 'Left Main - Insignificant Stenosis',
+            fieldset: 'insignificant_stenosis',
+        }),
+        defineField({
+            name: '03_left_anterior_insignificant',
+            type: 'number',
+            title: 'Left Anterior - Insignificant Stenosis',
+            fieldset: 'insignificant_stenosis',
+        }),
+        defineField({
+            name: '04_left_circumflex_insignificant',
+            type: 'number',
+            title: 'Left Circumflex - Insignificant Stenosis',
+            fieldset: 'insignificant_stenosis',
+        }),
+        defineField({
+            name: '05_right_insignificant',
+            type: 'number',
+            title: 'Right - Insignificant Stenosis',
+            fieldset: 'insignificant_stenosis',
+        }),
+        defineField({
+            name: '06_bypass_insignificant',
+            type: 'number',
+            title: 'Bypass Graft - Insignificant Stenosis',
+            fieldset: 'insignificant_stenosis',
+        }),
+        defineField({
+            name: '17_left_main_total_occlusion',
+            type: 'number',
+            title: 'Left Main - Total Occlusion',
+            fieldset: 'total_occlusion',
+        }),
+        defineField({
+            name: '18_left_anterior_total_occlusion',
+            type: 'number',
+            title: 'Left Anterior - Total Occlusion',
+            fieldset: 'total_occlusion',
+        }),
+        defineField({
+            name: '19_left_circumflex_total_occlusion',
+            type: 'number',
+            title: 'Left Circumflex - Total Occlusion',
+            fieldset: 'total_occlusion',
+        }),
+        defineField({
+            name: '20_right_total_occlusion',
+            type: 'number',
+            title: 'Right - Total Occlusion',
+            fieldset: 'total_occlusion',
+        }),
+        defineField({
+            name: '21_bypass_total_occlusion',
+            type: 'number',
+            title: 'Bypass Graft - Total Occlusion',
+            fieldset: 'total_occlusion',
+        }),
+        defineField({
+            name: '22_left_anterior_filled_collaterals',
+            type: 'number',
+            title: 'Left Anterior - Collateral Filling',
+            fieldset: 'filled_by_collaterals',
+        }),
+        defineField({
+            name: '23_left_circumflex_filled_collaterals',
+            type: 'number',
+            title: 'Left Circumflex - Collateral Filling',
+            fieldset: 'filled_by_collaterals',
+        }),
+        defineField({
+            name: '24_right_filled_collaterals',
+            type: 'number',
+            title: 'Right - Collateral Filling',
+            fieldset: 'filled_by_collaterals',
+        }),
+        defineField({
+            name: '25_bypass_filled_collaterals',
+            type: 'number',
+            title: 'Bypass Graft - Collateral Filling',
+            fieldset: 'filled_by_collaterals',
+        }),
+        defineField({
+            name: '26_left_anterior_coronary_spasm',
+            type: 'number',
+            title: 'Left Anterior - Coronary Spasm',
+            fieldset: 'coronary_spasm',
+        }),
+        defineField({
+            name: '27_left_circumflex_coronary_spasm',
+            type: 'number',
+            title: 'Left Circumflex - Coronary Spasm',
+            fieldset: 'coronary_spasm',
+        }),
+        defineField({
+            name: '28_right_coronary_spasm',
+            type: 'number',
+            title: 'Right - Coronary Spasm',
+            fieldset: 'coronary_spasm',
+        }),
+        defineField({
+            name: '29_bypass_coronary_spasm',
+            type: 'number',
+            title: 'Bypass Graft - Coronary Spasm',
+            fieldset: 'coronary_spasm',
+        }),
+        defineField({
+            name: '34_left_anterior_myocardial_bridge',
+            type: 'number',
+            title: 'Left Anterior - Myocardial Bridging',
+            fieldset: 'myocardial_bridging',
+        }),
+        defineField({
+            name: '35_left_circumflex_myocardial_bridge',
+            type: 'number',
+            title: 'Left Circumflex - Myocardial Bridging',
+            fieldset: 'myocardial_bridging',
+        }),
+        defineField({
+            name: '36_right_coronary_myocardial_bridge',
+            type: 'number',
+            title: 'Right - Myocardial Bridging',
+            fieldset: 'myocardial_bridging',
+        }),
+        defineField({
+            name: '37_left_main_anomalous_coronary',
+            type: 'number',
+            title: 'Left Main - Anomalous Coronary Origin',
+            fieldset: 'anomalous_coronary_origin',
+        }),
+        defineField({
+            name: '38_left_anterior_anomalous_coronary',
+            type: 'number',
+            title: 'Left Anterior - Anomalous Coronary Origin',
+            fieldset: 'anomalous_coronary_origin',
+        }),
+        defineField({
+            name: '39_left_circumflex_anomalous_coronary',
+            type: 'number',
+            title: 'Left Circumflex - Anomalous Coronary Origin',
+            fieldset: 'anomalous_coronary_origin',
+        }),
+        defineField({
+            name: '40_right_anomalous_coronary',
+            type: 'number',
+            title: 'Right - Anomalous Coronary Origin',
+            fieldset: 'anomalous_coronary_origin',
+        }),
+        defineField({
+            name: '41_left_main_coronary_fistula',
+            type: 'number',
+            title: 'Left Main - Coronary Fistula',
+            fieldset: 'coronary_fistula',
+        }),
+        defineField({
+            name: '42_left_anterior_coronary_fistula',
+            type: 'number',
+            title: 'Left Anterior - Coronary Fistula',
+            fieldset: 'coronary_fistula',
+        }),
+        defineField({
+            name: '43_left_circumflex_coronary_fistula',
+            type: 'number',
+            title: 'Left Circumflex - Coronary Fistula',
+            fieldset: 'coronary_fistula',
+        }),
+        defineField({
+            name: '44_right_coronary_fistula',
+            type: 'number',
+            title: 'Right - Coronary Fistula',
+            fieldset: 'coronary_fistula',
+        }),
+        defineField({
+            name: '30_left_anterior_coronary_thrombus',
+            type: 'number',
+            title: 'Left Anterior - Coronary Thrombus Present',
+            fieldset: 'coronary_artery_thrombus_present',
+        }),
+        defineField({
+            name: '31_left_circumflex_coronary_thrombus',
+            type: 'number',
+            title: 'Left Circumflex - Coronary Thrombus Present',
+            fieldset: 'coronary_artery_thrombus_present',
+        }),
+        defineField({
+            name: '32_right_coronary_thrombus',
+            type: 'number',
+            title: 'Right - Coronary Thrombus Present',
+            fieldset: 'coronary_artery_thrombus_present',
+        }),
+        defineField({
+            name: '33_bypass_coronary_thrombus',
+            type: 'number',
+            title: 'Bypass Graft - Coronary Thrombus Present',
+            fieldset: 'coronary_artery_thrombus_present',
+        }),
+        defineField({
+            name: '50_left_anterior_bypass_graft',
+            type: 'number',
+            title: 'Bypass Graft to Left Anterior Descending',
+            fieldset: 'bypass_graft',
+        }),
+        defineField({
+            name: '51_left_circumflex_bypass_graft',
+            type: 'number',
+            title: 'Bypass Graft to Left Circumflex',
+            fieldset: 'bypass_graft',
+        }),
+        defineField({
+            name: '52_right_bypass_graft',
+            type: 'number',
+            title: 'Bypass Graft to Right',
+            fieldset: 'bypass_graft',
+        }),
+        defineField({
+            name: '53_left_main_dissection',
+            type: 'number',
+            title: 'Left Main - Dissection',
+            fieldset: 'dissection',
+        }),
+        defineField({
+            name: '54_left_anterior_dissection',
+            type: 'number',
+            title: 'Left Anterior - Dissection',
+            fieldset: 'dissection',
+        }),
+        defineField({
+            name: '55_left_circumflex_dissection',
+            type: 'number',
+            title: 'Left Circumflex - Dissection',
+            fieldset: 'dissection',
+        }),
+        defineField({
+            name: '56_right_dissection',
+            type: 'number',
+            title: 'Right - Dissection',
+            fieldset: 'dissection',
+        }),
+        defineField({
+            name: '45_left_main_severe_ectasia',
+            type: 'number',
+            title: 'Left Main - Severe Ectasia',
+            fieldset: 'severe_ectasia',
+        }),
+        defineField({
+            name: '46_left_anterior_severe_ectasia',
+            type: 'number',
+            title: 'Left Anterior - Severe Ectasia',
+            fieldset: 'severe_ectasia',
+        }),
+        defineField({
+            name: '47_left_circumflex_severe_ectasia',
+            type: 'number',
+            title: 'Left Circumflex - Severe Ectasia',
+            fieldset: 'severe_ectasia',
+        }),
+        defineField({
+            name: '48_right_severe_ectasia',
+            type: 'number',
+            title: 'Right - Severe Ectasia',
+            fieldset: 'severe_ectasia',
+        }),
+        defineField({
+            name: '49_bypass_severe_ectasia',
+            type: 'number',
+            title: 'Bypass Graft - Severe Ectasia',
+            fieldset: 'severe_ectasia',
+        }),
+        defineField({
+            name: '63_left_main_stent_occluded',
+            type: 'number',
+            title: 'Left Main - Occluded Coronary Stent',
+            fieldset: 'stent_occluded',
+        }),
+        defineField({
+            name: '64_left_anterior_stent_occluded',
+            type: 'number',
+            title: 'Left Anterior - Occluded Coronary Stent',
+            fieldset: 'stent_occluded',
+        }),
+        defineField({
+            name: '65_left_circumflex_stent_occluded',
+            type: 'number',
+            title: 'Left Circumflex - Occluded Coronary Stent',
+            fieldset: 'stent_occluded',
+        }),
+        defineField({
+            name: '66_right_stent_occluded',
+            type: 'number',
+            title: 'Right - Occluded Coronary Stent',
+            fieldset: 'stent_occluded',
+        }),
+        defineField({
+            name: '67_bypass_stent_occluded',
+            type: 'number',
+            title: 'Bypass Graft - Occluded Coronary Stent',
+            fieldset: 'stent_occluded',
+        }),
+        defineField({
+            name: '58_left_main_stent_patent',
+            type: 'number',
+            title: 'Left Main - Patent Coronary Stent',
+            fieldset: 'patent_coronary_stent',
+        }),
+        defineField({
+            name: '59_left_anterior_stent_patent',
+            type: 'number',
+            title: 'Left Anterior - Patent Coronary Stent',
+            fieldset: 'patent_coronary_stent',
+        }),
+        defineField({
+            name: '60_left_circumflex_stent_patent',
+            type: 'number',
+            title: 'Left Circumflex - Patent Coronary Stent',
+            fieldset: 'patent_coronary_stent',
+        }),
+        defineField({
+            name: '61_right_stent_patent',
+            type: 'number',
+            title: 'Right - Patent Coronary Stent',
+            fieldset: 'patent_coronary_stent',
+        }),
+        defineField({
+            name: '62_bypass_stent_patent',
+            type: 'number',
+            title: 'Bypass Graft - Patent Coronary Stent',
+            fieldset: 'patent_coronary_stent',
+        }),
+    ],
+});
