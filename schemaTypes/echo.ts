@@ -3,9 +3,9 @@ import {defineType, defineField} from 'sanity';
 import {sharedQuestionFields, sharedQuestionFieldsets} from './sharedQuestionFields';
 
 export default defineType({
-    name: 'ecg',
+    name: 'echo',
     type: 'document',
-    title: 'ECG Question',
+    title: 'Echo Question',
     fieldsets: [
         ...sharedQuestionFieldsets,
         {
