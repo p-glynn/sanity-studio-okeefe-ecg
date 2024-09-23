@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import ecg from './ecg';
+
+export const schemaTypes = [ecg];

@@ -1,272 +1,364 @@
 {
-  "data": [
-    {
-      "id": "01_normal_angiogram",
-      "label": "Normal Angiogram"
-    },
-    {
-      "id": "12_left_main_severe",
-      "label": "Left Main - Severe Stenosis"
-    },
-    {
-      "id": "13_left_anterior_severe",
-      "label": "Left Anterior - Severe Stenosis"
-    },
-    {
-      "id": "14_left_circumflex_severe",
-      "label": "Left Circumflex - Severe Stenosis"
-    },
-    {
-      "id": "15_right_severe",
-      "label": "Right - Severe Stenosis"
-    },
-    {
-      "id": "16_bypass_severe",
-      "label": "Bypass Graft - Severe Stenosis"
-    },
-    {
-      "id": "07_left_main_moderate",
-      "label": "Left Main - Moderate Stenosis"
-    },
-    {
-      "id": "08_left_anterior_moderate",
-      "label": "Left Anterior - Moderate Stenosis"
-    },
-    {
-      "id": "09_left_circumflex_moderate",
-      "label": "Left Circumflex - Moderate Stenosis"
-    },
-    {
-      "id": "10_right_moderate",
-      "label": "Right - Moderate Stenosis"
-    },
-    {
-      "id": "11_bypass_moderate",
-      "label": "Bypass Graft - Moderate Stenosis"
-    },
-    {
-      "id": "02_left_main_insignificant",
-      "label": "Left Main - Insignificant Stenosis"
-    },
-    {
-      "id": "03_left_anterior_insignificant",
-      "label": "Left Anterior - Insignificant Stenosis"
-    },
-    {
-      "id": "04_left_circumflex_insignificant",
-      "label": "Left Circumflex - Insignificant Stenosis"
-    },
-    {
-      "id": "05_right_insignificant",
-      "label": "Right - Insignificant Stenosis"
-    },
-    {
-      "id": "06_bypass_insignificant",
-      "label": "Bypass Graft - Insignificant Stenosis"
-    },
-    {
-      "id": "17_left_main_total_occlusion",
-      "label": "Left Main - Total Occlusion"
-    },
-    {
-      "id": "18_left_anterior_total_occlusion",
-      "label": "Left Anterior - Total Occlusion"
-    },
-    {
-      "id": "19_left_circumflex_total_occlusion",
-      "label": "Left Circumflex - Total Occlusion"
-    },
-    {
-      "id": "20_right_total_occlusion",
-      "label": "Right - Total Occlusion"
-    },
-    {
-      "id": "21_bypass_total_occlusion",
-      "label": "Bypass Graft - Total Occlusion"
-    },
-    {
-      "id": "22_left_anterior_filled_collaterals",
-      "label": "Left Anterior - Collateral Filling"
-    },
-    {
-      "id": "23_left_circumflex_filled_collaterals",
-      "label": "Left Circumflex - Collateral Filling"
-    },
-    {
-      "id": "24_right_filled_collaterals",
-      "label": "Right - Collateral Filling"
-    },
-    {
-      "id": "25_bypass_filled_collaterals",
-      "label": "Bypass Graft - Collateral Filling"
-    },
-    {
-      "id": "26_left_anterior_coronary_spasm",
-      "label": "Left Anterior - Coronary Spasm"
-    },
-    {
-      "id": "27_left_circumflex_coronary_spasm",
-      "label": "Left Circumflex - Coronary Spasm"
-    },
-    {
-      "id": "28_right_coronary_spasm",
-      "label": "Right - Coronary Spasm"
-    },
-    {
-      "id": "29_bypass_coronary_spasm",
-      "label": "Bypass Graft - Coronary Spasm"
-    },
-    {
-      "id": "34_left_anterior_myocardial_bridge",
-      "label": "Left Anterior - Myocardial Bridging"
-    },
-    {
-      "id": "35_left_circumflex_myocardial_bridge",
-      "label": "Left Circumflex - Myocardial Bridging"
-    },
-    {
-      "id": "36_right_coronary_myocardial_bridge",
-      "label": "Right - Myocardial Bridging"
-    },
-    {
-      "id": "37_left_main_anomalous_coronary",
-      "label": "Left Main - Anomalous Coronary Origin"
-    },
-    {
-      "id": "38_left_anterior_anomalous_coronary",
-      "label": "Left Anterior - Anomalous Coronary Origin"
-    },
-    {
-      "id": "39_left_circumflex_anomalous_coronary",
-      "label": "Left Circumflex - Anomalous Coronary Origin"
-    },
-    {
-      "id": "40_right_anomalous_coronary",
-      "label": "Right - Anomalous Coronary Origin"
-    },
-    {
-      "id": "41_left_main_coronary_fistula",
-      "label": "Left Main - Coronary Fistula"
-    },
-    {
-      "id": "42_left_anterior_coronary_fistula",
-      "label": "Left Anterior - Coronary Fistula"
-    },
-    {
-      "id": "43_left_circumflex_coronary_fistula",
-      "label": "Left Circumflex - Coronary Fistula"
-    },
-    {
-      "id": "44_right_coronary_fistula",
-      "label": "Right - Coronary Fistula"
-    },
-    {
-      "id": "30_left_anterior_coronary_thrombus",
-      "label": "Left Anterior - Coronary Thrombus Present"
-    },
-    {
-      "id": "31_left_circumflex_coronary_thrombus",
-      "label": "Left Circumflex - Coronary Thrombus Present"
-    },
-    {
-      "id": "32_right_coronary_thrombus",
-      "label": "Right - Coronary Thrombus Present"
-    },
-    {
-      "id": "33_bypass_coronary_thrombus",
-      "label": "Bypass Graft - Coronary Thrombus Present"
-    },
-    {
-      "id": "50_left_anterior_bypass_graft",
-      "label": "Bypass Graft to Left Anterior Descending"
-    },
-    {
-      "id": "51_left_circumflex_bypass_graft",
-      "label": "Bypass Graft to Left Circumflex"
-    },
-    {
-      "id": "52_right_bypass_graft",
-      "label": "Bypass Graft to Right"
-    },
-    {
-      "id": "53_left_main_dissection",
-      "label": "Left Main - Dissection"
-    },
-    {
-      "id": "54_left_anterior_dissection",
-      "label": "Left Anterior - Dissection"
-    },
-    {
-      "id": "55_left_circumflex_dissection",
-      "label": "Left Circumflex - Dissection"
-    },
-    {
-      "id": "56_right_dissection",
-      "label": "Right - Dissection"
-    },
-    {
-      "id": "57_bypass_dissection",
-      "label": "Bypass Graft - Dissection"
-    },
-    {
-      "id": "45_left_main_severe_ectasia",
-      "label": "Left Main - Severe Ectasia"
-    },
-    {
-      "id": "46_left_anterior_severe_ectasia",
-      "label": "Left Anterior - Severe Ectasia"
-    },
-    {
-      "id": "47_left_circumflex_severe_ectasia",
-      "label": "Left Circumflex - Severe Ectasia"
-    },
-    {
-      "id": "48_right_severe_ectasia",
-      "label": "Right - Severe Ectasia"
-    },
-    {
-      "id": "49_bypass_severe_ectasia",
-      "label": "Bypass Graft - Severe Ectasia"
-    },
-    {
-      "id": "63_left_main_stent_occluded",
-      "label": "Left Main - Occluded Coronary Stent"
-    },
-    {
-      "id": "64_left_anterior_stent_occluded",
-      "label": "Left Anterior - Occluded Coronary Stent"
-    },
-    {
-      "id": "65_left_circumflex_stent_occluded",
-      "label": "Left Circumflex - Occluded Coronary Stent"
-    },
-    {
-      "id": "66_right_stent_occluded",
-      "label": "Right - Occluded Coronary Stent"
-    },
-    {
-      "id": "67_bypass_stent_occluded",
-      "label": "Bypass Graft - Occluded Coronary Stent"
-    },
-    {
-      "id": "58_left_main_stent_patent",
-      "label": "Left Main - Patent Coronary Stent"
-    },
-    {
-      "id": "59_left_anterior_stent_patent",
-      "label": "Left Anterior - Patent Coronary Stent"
-    },
-    {
-      "id": "60_left_circumflex_stent_patent",
-      "label": "Left Circumflex - Patent Coronary Stent"
-    },
-    {
-      "id": "61_right_stent_patent",
-      "label": "Right - Patent Coronary Stent"
-    },
-    {
-      "id": "62_bypass_stent_patent",
-      "label": "Bypass Graft - Patent Coronary Stent"
-    }
-  ]
+    "groups": [
+        {
+            "id": "normal_angiogram",
+            "label": "Normal Angiogram",
+            "data": [
+                {
+                    "id": "01_normal_angiogram",
+                    "label": "Normal Angiogram"
+                }
+            ]
+        },
+        {
+            "id": "severe_stenosis",
+            "label": "Severe Stenosis",
+            "data": [
+                {
+                    "id": "12_left_main_severe",
+                    "label": "Left Main - Severe Stenosis"
+                },
+                {
+                    "id": "13_left_anterior_severe",
+                    "label": "Left Anterior - Severe Stenosis"
+                },
+                {
+                    "id": "14_left_circumflex_severe",
+                    "label": "Left Circumflex - Severe Stenosis"
+                },
+                {
+                    "id": "15_right_severe",
+                    "label": "Right - Severe Stenosis"
+                },
+                {
+                    "id": "16_bypass_severe",
+                    "label": "Bypass Graft - Severe Stenosis"
+                }
+            ]
+        },
+        {
+            "id": "moderate_stenosis",
+            "label": "Moderate Stenosis",
+            "data": [
+                {
+                    "id": "07_left_main_moderate",
+                    "label": "Left Main - Moderate Stenosis"
+                },
+                {
+                    "id": "08_left_anterior_moderate",
+                    "label": "Left Anterior - Moderate Stenosis"
+                },
+                {
+                    "id": "09_left_circumflex_moderate",
+                    "label": "Left Circumflex - Moderate Stenosis"
+                },
+                {
+                    "id": "10_right_moderate",
+                    "label": "Right - Moderate Stenosis"
+                },
+                {
+                    "id": "11_bypass_moderate",
+                    "label": "Bypass Graft - Moderate Stenosis"
+                }
+            ]
+        },
+        {
+            "id": "insignificant_stenosis",
+            "label": "Insignificant Stenosis",
+            "data": [
+                {
+                    "id": "02_left_main_insignificant",
+                    "label": "Left Main - Insignificant Stenosis"
+                },
+                {
+                    "id": "03_left_anterior_insignificant",
+                    "label": "Left Anterior - Insignificant Stenosis"
+                },
+                {
+                    "id": "04_left_circumflex_insignificant",
+                    "label": "Left Circumflex - Insignificant Stenosis"
+                },
+                {
+                    "id": "05_right_insignificant",
+                    "label": "Right - Insignificant Stenosis"
+                },
+                {
+                    "id": "06_bypass_insignificant",
+                    "label": "Bypass Graft - Insignificant Stenosis"
+                }
+            ]
+        },
+        {
+            "id": "total_occlusion",
+            "label": "Total Occlusion",
+            "data": [
+                {
+                    "id": "17_left_main_total_occlusion",
+                    "label": "Left Main - Total Occlusion"
+                },
+                {
+                    "id": "18_left_anterior_total_occlusion",
+                    "label": "Left Anterior - Total Occlusion"
+                },
+                {
+                    "id": "19_left_circumflex_total_occlusion",
+                    "label": "Left Circumflex - Total Occlusion"
+                },
+                {
+                    "id": "20_right_total_occlusion",
+                    "label": "Right - Total Occlusion"
+                },
+                {
+                    "id": "21_bypass_total_occlusion",
+                    "label": "Bypass Graft - Total Occlusion"
+                }
+            ]
+        },
+        {
+            "id": "filled_by_collaterals",
+            "label": "Filled by Collaterals",
+            "data": [
+                {
+                    "id": "22_left_anterior_filled_collaterals",
+                    "label": "Left Anterior - Collateral Filling"
+                },
+                {
+                    "id": "23_left_circumflex_filled_collaterals",
+                    "label": "Left Circumflex - Collateral Filling"
+                },
+                {
+                    "id": "24_right_filled_collaterals",
+                    "label": "Right - Collateral Filling"
+                },
+                {
+                    "id": "25_bypass_filled_collaterals",
+                    "label": "Bypass Graft - Collateral Filling"
+                }
+            ]
+        },
+        {
+            "id": "coronary_spasm",
+            "label": "Coronary Spasm",
+            "data": [
+                {
+                    "id": "26_left_anterior_coronary_spasm",
+                    "label": "Left Anterior - Coronary Spasm"
+                },
+                {
+                    "id": "27_left_circumflex_coronary_spasm",
+                    "label": "Left Circumflex - Coronary Spasm"
+                },
+                {
+                    "id": "28_right_coronary_spasm",
+                    "label": "Right - Coronary Spasm"
+                },
+                {
+                    "id": "29_bypass_coronary_spasm",
+                    "label": "Bypass Graft - Coronary Spasm"
+                }
+            ]
+        },
+        {
+            "id": "myocardial_bridging",
+            "label": "Myocardial Bridging",
+            "data": [
+                {
+                    "id": "34_left_anterior_myocardial_bridge",
+                    "label": "Left Anterior - Myocardial Bridging"
+                },
+                {
+                    "id": "35_left_circumflex_myocardial_bridge",
+                    "label": "Left Circumflex - Myocardial Bridging"
+                },
+                {
+                    "id": "36_right_coronary_myocardial_bridge",
+                    "label": "Right - Myocardial Bridging"
+                }
+            ]
+        },
+        {
+            "id": "anomalous_coronary_origin",
+            "label": "Anomalous Coronary Origin",
+            "data": [
+                {
+                    "id": "37_left_main_anomalous_coronary",
+                    "label": "Left Main - Anomalous Coronary Origin"
+                },
+                {
+                    "id": "38_left_anterior_anomalous_coronary",
+                    "label": "Left Anterior - Anomalous Coronary Origin"
+                },
+                {
+                    "id": "39_left_circumflex_anomalous_coronary",
+                    "label": "Left Circumflex - Anomalous Coronary Origin"
+                },
+                {
+                    "id": "40_right_anomalous_coronary",
+                    "label": "Right - Anomalous Coronary Origin"
+                }
+            ]
+        },
+        {
+            "id": "coronary_fistula",
+            "label": "Coronary Fistula",
+            "data": [
+                {
+                    "id": "41_left_main_coronary_fistula",
+                    "label": "Left Main - Coronary Fistula"
+                },
+                {
+                    "id": "42_left_anterior_coronary_fistula",
+                    "label": "Left Anterior - Coronary Fistula"
+                },
+                {
+                    "id": "43_left_circumflex_coronary_fistula",
+                    "label": "Left Circumflex - Coronary Fistula"
+                },
+                {
+                    "id": "44_right_coronary_fistula",
+                    "label": "Right - Coronary Fistula"
+                }
+            ]
+        },
+        {
+            "id": "coronary_artery_thrombus_present",
+            "label": "Coronary Artery Thrombus Present",
+            "data": [
+                {
+                    "id": "30_left_anterior_coronary_thrombus",
+                    "label": "Left Anterior - Coronary Thrombus Present"
+                },
+                {
+                    "id": "31_left_circumflex_coronary_thrombus",
+                    "label": "Left Circumflex - Coronary Thrombus Present"
+                },
+                {
+                    "id": "32_right_coronary_thrombus",
+                    "label": "Right - Coronary Thrombus Present"
+                },
+                {
+                    "id": "33_bypass_coronary_thrombus",
+                    "label": "Bypass Graft - Coronary Thrombus Present"
+                }
+            ]
+        },
+        {
+            "id": "bypass_graft",
+            "label": "Bypass Graft",
+            "data": [
+                {
+                    "id": "50_left_anterior_bypass_graft",
+                    "label": "Bypass Graft to Left Anterior Descending"
+                },
+                {
+                    "id": "51_left_circumflex_bypass_graft",
+                    "label": "Bypass Graft to Left Circumflex"
+                },
+                {
+                    "id": "52_right_bypass_graft",
+                    "label": "Bypass Graft to Right"
+                }
+            ]
+        },
+        {
+            "id": "dissection",
+            "label": "Dissection",
+            "data": [
+                {
+                    "id": "53_left_main_dissection",
+                    "label": "Left Main - Dissection"
+                },
+                {
+                    "id": "54_left_anterior_dissection",
+                    "label": "Left Anterior - Dissection"
+                },
+                {
+                    "id": "55_left_circumflex_dissection",
+                    "label": "Left Circumflex - Dissection"
+                },
+                {
+                    "id": "56_right_dissection",
+                    "label": "Right - Dissection"
+                }
+            ]
+        },
+        {
+            "id": "severe_ectasia",
+            "label": "Severe Ectasia / Aneurysm",
+            "data": [
+                {
+                    "id": "45_left_main_severe_ectasia",
+                    "label": "Left Main - Severe Ectasia"
+                },
+                {
+                    "id": "46_left_anterior_severe_ectasia",
+                    "label": "Left Anterior - Severe Ectasia"
+                },
+                {
+                    "id": "47_left_circumflex_severe_ectasia",
+                    "label": "Left Circumflex - Severe Ectasia"
+                },
+                {
+                    "id": "48_right_severe_ectasia",
+                    "label": "Right - Severe Ectasia"
+                },
+                {
+                    "id": "49_bypass_severe_ectasia",
+                    "label": "Bypass Graft - Severe Ectasia"
+                }
+            ]
+        },
+        {
+            "id": "stent_occluded",
+            "label": "Occluded Coronary Stent",
+            "data": [
+                {
+                    "id": "63_left_main_stent_occluded",
+                    "label": "Left Main - Occluded Coronary Stent"
+                },
+                {
+                    "id": "64_left_anterior_stent_occluded",
+                    "label": "Left Anterior - Occluded Coronary Stent"
+                },
+                {
+                    "id": "65_left_circumflex_stent_occluded",
+                    "label": "Left Circumflex - Occluded Coronary Stent"
+                },
+                {
+                    "id": "66_right_stent_occluded",
+                    "label": "Right - Occluded Coronary Stent"
+                },
+                {
+                    "id": "67_bypass_stent_occluded",
+                    "label": "Bypass Graft - Occluded Coronary Stent"
+                }
+            ]
+        },
+        {
+            "id": "patent_coronary_stent",
+            "label": "Patent Coronary Stent",
+            "data": [
+                {
+                    "id": "58_left_main_stent_patent",
+                    "label": "Left Main - Patent Coronary Stent"
+                },
+                {
+                    "id": "59_left_anterior_stent_patent",
+                    "label": "Left Anterior - Patent Coronary Stent"
+                },
+                {
+                    "id": "60_left_circumflex_stent_patent",
+                    "label": "Left Circumflex - Patent Coronary Stent"
+                },
+                {
+                    "id": "61_right_stent_patent",
+                    "label": "Right - Patent Coronary Stent"
+                },
+                {
+                    "id": "62_bypass_stent_patent",
+                    "label": "Bypass Graft - Patent Coronary Stent"
+                }
+            ]
+        }
+    ]
 }
