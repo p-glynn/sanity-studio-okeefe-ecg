@@ -33,8 +33,8 @@ async function main() {
             });
         });
     });
-    await writeData({fields}, 'fields', inputType);
-    await writeData({fieldsets}, 'fieldsets', inputType);
+    await writeData({fields}, 'output/fields', inputType);
+    await writeData({fieldsets}, 'output/fieldsets', inputType);
 }
 
 main();
