@@ -28,3 +28,7 @@
 # Dotenv and similar local-only files
 *.local
 .vscode/
+
+# Private
+input/questions
+output/questions
