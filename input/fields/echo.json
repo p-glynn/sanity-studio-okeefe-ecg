@@ -1,0 +1,798 @@
+{
+  "groups": [
+    {
+      "id": "mi_complications",
+      "label": "MI Complications",
+      "data": [
+        {
+          "id": "lv_vs_rupture_04",
+          "label": "Ventricular septal rupture"
+        },
+        {
+          "id": "lv_fw_rupture_05",
+          "label": "Free wall rupture"
+        },
+        {
+          "id": "lv_ruptured_papillary_06",
+          "label": "Ruptured papillary muscle"
+        }
+      ]
+    },
+    {
+      "id": "lv_size",
+      "label": "LV Size",
+      "data": [
+        {
+          "id": "lv_size_small_03",
+          "label": "Small LV size"
+        },
+        {
+          "id": "lv_size_normal_01",
+          "label": "Normal LV size"
+        },
+        {
+          "id": "lv_size_enlarged_02",
+          "label": "Enlarged LV size"
+        }
+      ]
+    },
+    {
+      "id": "lv_wall_thickness",
+      "label": "LV Wall Thickness",
+      "data": [
+        {
+          "id": "lv_wall_normal_07",
+          "label": "Normal LV Wall Thickness"
+        },
+        {
+          "id": "lv_concentric_increase_08",
+          "label": "Concentric LVH"
+        },
+        {
+          "id": "lv_asymmetric_09",
+          "label": "Asymmetric septal hypertrophy"
+        }
+      ]
+    },
+    {
+      "id": "lv_masses",
+      "label": "LV Masses",
+      "data": [
+        {
+          "id": "lv_mass_or_thrombus_10",
+          "label": "LV mass or thrombus"
+        },
+        {
+          "id": "lv_metastatic_tumor_11",
+          "label": "Metastatic tumor"
+        }
+      ]
+    },
+    {
+      "id": "lv_ejection_fraction",
+      "label": "LV Ejection Fraction",
+      "data": [
+        {
+          "id": "lv_ejection_normal_12",
+          "label": "LV Fraction: Normal to Hyperdynamic (EF >=50%)"
+        },
+        {
+          "id": "lv_ejection_mild_13",
+          "label": "LV Fraction: Mild To Moderate (EF 35-49%)"
+        },
+        {
+          "id": "lv_ejection_severe_14",
+          "label": "LV Fraction: Severe Reduction (EF <35%)"
+        }
+      ]
+    },
+    {
+      "id": "lv_diastolic_function",
+      "label": "LV Diastolic Function",
+      "data": [
+        {
+          "id": "lv_diastolic_normal_15",
+          "label": "LV Diastolic Function: Normal"
+        },
+        {
+          "id": "lv_diastolic_grade_1_16",
+          "label": "LV Diastolic Function: Grade 1 (abnormal)"
+        },
+        {
+          "id": "lv_diastolic_grade_2_17",
+          "label": "LV Diastolic Function: Grade 2 (pseudonormal)"
+        },
+        {
+          "id": "lv_diastolic_grade_3_18",
+          "label": "LV Diastolic Function: Grade 3 (restrictive)"
+        }
+      ]
+    },
+    {
+      "id": "wall_motion_abnormalities",
+      "label": "Regional Wall Motion Abnormalities",
+      "data": [
+        {
+          "id": "lv_abnormal_wall_19",
+          "label": "Abnormal Regional LV Wall Motion"
+        },
+        {
+          "id": "lv_global_hypokinesis_20",
+          "label": "Global LV Wall Motion Hypokinesis"
+        }
+      ]
+    },
+    {
+      "id": "hypokinesis",
+      "label": "Hypokinesis",
+      "data": [
+        {
+          "id": "apical_hypokinesis_25",
+          "label": "Apical Hypokinesis"
+        },
+        {
+          "id": "septal_hypokinesis_22",
+          "label": "Septal Hypokinesis"
+        },
+        {
+          "id": "lateral_hypokinesis_23",
+          "label": "Lateral Wall Hypokinesis"
+        },
+        {
+          "id": "inferior_hypokinesis_24",
+          "label": "Inferior / Posterior Wall Hypokinesis"
+        },
+        {
+          "id": "anterior_hypokinesis_21",
+          "label": "Anterior Wall Hypokinesis"
+        }
+      ]
+    },
+    {
+      "id": "akinesis",
+      "label": "Akinesis",
+      "data": [
+        {
+          "id": "apical_akinesis_30",
+          "label": "Apical Akinesis"
+        },
+        {
+          "id": "septal_akinesis_27",
+          "label": "Septal Akinesis"
+        },
+        {
+          "id": "lateral_akinesis_28",
+          "label": "Lateral Wall Akinesis"
+        },
+        {
+          "id": "inferior_akinesis_29",
+          "label": "Inferior / Posterior Wall Akinesis"
+        },
+        {
+          "id": "anterior_akinesis_26",
+          "label": "Anterior Wall Akinesis"
+        }
+      ]
+    },
+    {
+      "id": "thinning_scar",
+      "label": "Thinning and/or Scar",
+      "data": [
+        {
+          "id": "apical_thinning_35",
+          "label": "Apical Thinning / Scar"
+        },
+        {
+          "id": "septal_thinning_32",
+          "label": "Septal Thinning / Scar"
+        },
+        {
+          "id": "lateral_thinning_33",
+          "label": "Lateral Wall Thinning / Scar"
+        },
+        {
+          "id": "inferior_thinning_34",
+          "label": "Inferior / Posterior Wall Thinning / Scar"
+        },
+        {
+          "id": "anterior_thinning_31",
+          "label": "Anterior Wall Thinning / Scar"
+        }
+      ]
+    },
+    {
+      "id": "aneurysm",
+      "label": "Aneurysm",
+      "data": [
+        {
+          "id": "apical_aneurysm_40",
+          "label": "Apical Aneurysm"
+        },
+        {
+          "id": "septal_aneurysm_37",
+          "label": "Septal Aneurysm"
+        },
+        {
+          "id": "lateral_aneurysm_38",
+          "label": "Lateral Wall Aneurysm"
+        },
+        {
+          "id": "inferior_aneurysm_39",
+          "label": "Inferior / Posterior Wall Aneurysm"
+        },
+        {
+          "id": "anterior_aneurysm_36",
+          "label": "Anterior Wall Aneurysm"
+        }
+      ]
+    },
+    {
+      "id": "pseudoaneurysm",
+      "label": "Pseudoaneurysm",
+      "data": [
+        {
+          "id": "apical_pseudoaneurysm_45",
+          "label": "Apical Pseudoaneurysm"
+        },
+        {
+          "id": "septal_pseudoaneurysm_42",
+          "label": "Septal Pseudoaneurysm"
+        },
+        {
+          "id": "lateral_pseudoaneurysm_43",
+          "label": "Lateral Wall Pseudoaneurysm"
+        },
+        {
+          "id": "inferior_pseudoaneurysm_44",
+          "label": "Inferior / Posterior Wall Pseudoaneurysm"
+        },
+        {
+          "id": "anterior_pseudoaneurysm_41",
+          "label": "Anterior Wall Pseudoaneurysm"
+        }
+      ]
+    },
+    {
+      "id": "ischemia",
+      "label": "Ischemia (with stress echo)",
+      "data": [
+        {
+          "id": "apical_ischemia_50",
+          "label": "Apical Ischemia"
+        },
+        {
+          "id": "septal_ischemia_47",
+          "label": "Septal Ischemia"
+        },
+        {
+          "id": "lateral_ischemia_48",
+          "label": "Lateral Wall Ischemia"
+        },
+        {
+          "id": "inferior_ischemia_49",
+          "label": "Inferior / Posterior Wall Ischemia"
+        },
+        {
+          "id": "anterior_ischemia_46",
+          "label": "Anterior Wall Ischemia"
+        }
+      ]
+    },
+    {
+      "id": "viability",
+      "label": "Viability (with stress echo)",
+      "data": [
+        {
+          "id": "apical_viability_55",
+          "label": "Apical Viability"
+        },
+        {
+          "id": "septal_viability_52",
+          "label": "Septal Viability"
+        },
+        {
+          "id": "lateral_viability_53",
+          "label": "Lateral Wall Viability"
+        },
+        {
+          "id": "inferior_viability_54",
+          "label": "Inferior / Posterior Wall Viability"
+        },
+        {
+          "id": "anterior_viability_51",
+          "label": "Anterior Wall Viability"
+        }
+      ]
+    },
+    {
+      "id": "adult_congenital_heart_disease",
+      "label": "Adult Congenital Heart Disease",
+      "data": [
+        {
+          "id": "primum_asd_57",
+          "label": "Primum ASD"
+        },
+        {
+          "id": "secundum_asd_58",
+          "label": "Secundum ASD"
+        },
+        {
+          "id": "sinus_asd_59",
+          "label": "Sinus Venosus ASD"
+        },
+        {
+          "id": "patent_foramen_ovale_56",
+          "label": "Patent Foramen Ovale"
+        },
+        {
+          "id": "muscular_vsd_60",
+          "label": "Muscular VSD"
+        },
+        {
+          "id": "membranous_vsd_61",
+          "label": "Membranous VSD"
+        },
+        {
+          "id": "supacristal_vsd_62",
+          "label": "Supacristal VSD"
+        },
+        {
+          "id": "patent_ductus_arteriosus_63",
+          "label": "Patent Ductus Arteriosus"
+        },
+        {
+          "id": "subaortic_stenosus_64",
+          "label": "Subaortic Stenosus"
+        },
+        {
+          "id": "coronary_fistula_65",
+          "label": "Coronary Fistula"
+        },
+        {
+          "id": "tetralogy_of_fallot_66",
+          "label": "Tetralogy of Fallot"
+        },
+        {
+          "id": "ebsteins_anomaly_67",
+          "label": "Ebstein's Anomaly"
+        },
+        {
+          "id": "anomalous_coronary_artery_148",
+          "label": "Anomalous Coronary Artery"
+        },
+        {
+          "id": "complete_transposition_68",
+          "label": "Complete Transposition (D-TGA)"
+        },
+        {
+          "id": "corrected_transposition_69",
+          "label": "Corrected Transposition (L-TGA)"
+        }
+      ]
+    },
+    {
+      "id": "atrial_diseases",
+      "label": "Atrial Diseases",
+      "data": [
+        {
+          "id": "enlarged_left_atrium_70",
+          "label": "Enlarged Left Atrium"
+        },
+        {
+          "id": "enlarged_right_atrium_71",
+          "label": "Enlarged Right Atrium"
+        },
+        {
+          "id": "atrial_myxoma_72",
+          "label": "Atrial Myxoma"
+        },
+        {
+          "id": "atrial_thrombus_73",
+          "label": "Atrial Thrombus"
+        },
+        {
+          "id": "metastatic_tumor_74",
+          "label": "Metastatic Tumor"
+        },
+        {
+          "id": "atrial_hypertrophy_75",
+          "label": "Lipomatous Hypertrophy Of Interatrial Septum"
+        }
+      ]
+    },
+    {
+      "id": "cardiomyopathies",
+      "label": "Cardiomyopathies",
+      "data": [
+        {
+          "id": "dilated_cardiomyopathy_80",
+          "label": "Nonischemic (dilated) Cardiomyopathy"
+        },
+        {
+          "id": "hypertrophic_cardiomyopathy_76",
+          "label": "Hypertrophic Cardiomyopathy"
+        },
+        {
+          "id": "apical_cardiomyopathy_77",
+          "label": "Apical Hypertrophic Cardiomyopathy"
+        },
+        {
+          "id": "restrictive_cardiomyopathy_78",
+          "label": "Restrictive Cardiomyopathy"
+        },
+        {
+          "id": "takotsubo_cardiomyopathy_82",
+          "label": "Takotsubo (stress induced) Cardiomyopathy"
+        },
+        {
+          "id": "arvd_cardiomyopathy_79",
+          "label": "ARVC Cardiomyopathy"
+        },
+        {
+          "id": "noncompaction_cardiomyopathy_81",
+          "label": "Noncompaction Cardiomyopathy"
+        }
+      ]
+    },
+    {
+      "id": "systemic_diseases",
+      "label": "Systemic Diseases",
+      "data": [
+        {
+          "id": "amyloid_83",
+          "label": "Amyloid"
+        },
+        {
+          "id": "hypereosinophilia_84",
+          "label": "Hypereosinophilia"
+        }
+      ]
+    },
+    {
+      "id": "aortic_valve",
+      "label": "Aortic Valve",
+      "data": [
+        {
+          "id": "vegetation_aortic_88",
+          "label": "Aortic Valve - Vegetation"
+        },
+        {
+          "id": "calcified_aortic_85",
+          "label": "Aortic Valve - Calcified"
+        },
+        {
+          "id": "bicuspid_aortic_87",
+          "label": "Aortic Valve - Bicuspid"
+        },
+        {
+          "id": "flail_aortic_89",
+          "label": "Aortic Valve - Flail"
+        },
+        {
+          "id": "fibroelastoma_aortic_90",
+          "label": "Aortic Valve - Fibroelastoma"
+        },
+        {
+          "id": "abscess_aortic_91",
+          "label": "Aortic Valve - Abscess"
+        },
+        {
+          "id": "rheumatic_aortic_86",
+          "label": "Aortic Valve - Rheumatic"
+        }
+      ]
+    },
+    {
+      "id": "mitral_valve",
+      "label": "Mitral Valve",
+      "data": [
+        {
+          "id": "vegetation_mitral_95",
+          "label": "Mitral Valve - Vegetation"
+        },
+        {
+          "id": "calcified_mitral_92",
+          "label": "Mitral Valve - Calcified"
+        },
+        {
+          "id": "cleft_mitral_94",
+          "label": "Mitral Valve - Cleft"
+        },
+        {
+          "id": "prolapse_mitral_96",
+          "label": "Mitral Valve - Prolapse"
+        },
+        {
+          "id": "flail_mitral_97",
+          "label": "Mitral Valve - Flail"
+        },
+        {
+          "id": "fibroelastoma_mitral_98",
+          "label": "Mitral Valve - Fibroelastoma"
+        },
+        {
+          "id": "sam_mitral_99",
+          "label": "Mitral Valve - Systolic Anterior Motion (SAM)"
+        },
+        {
+          "id": "rheumatic_mitral_93",
+          "label": "Mitral Valve - Rheumatic"
+        }
+      ]
+    },
+    {
+      "id": "tricuspid_valve",
+      "label": "Tricuspid Valve",
+      "data": [
+        {
+          "id": "vegetation_tricuspid_102",
+          "label": "Tricuspid Valve - Vegetation"
+        },
+        {
+          "id": "fails_tricuspid_100",
+          "label": "Tricuspid Valve - Fails to coapt"
+        },
+        {
+          "id": "carcinoid_tricuspid_101",
+          "label": "Tricuspid Valve - Carcinoid"
+        },
+        {
+          "id": "prolapse_tricuspid_103",
+          "label": "Tricuspid Valve - Prolapse"
+        },
+        {
+          "id": "flail_tricuspid_104",
+          "label": "Tricuspid Valve - Flail"
+        }
+      ]
+    },
+    {
+      "id": "pulmonic_valve",
+      "label": "Pulmonic Valve",
+      "data": [
+        {
+          "id": "congenitally_abnormal_105",
+          "label": "Pulmonic Valve - Congenitally abnormal"
+        },
+        {
+          "id": "carcinoid_106",
+          "label": "Pulmonic Valve - Carcinoid"
+        }
+      ]
+    },
+    {
+      "id": "prosthetic_valve",
+      "label": "Prosthetic Valve",
+      "data": [
+        {
+          "id": "normal_prosthetic_107",
+          "label": "Prosthetic Valve - Normal function"
+        },
+        {
+          "id": "prosthetic_endocarditis_113",
+          "label": "Prosthetic Valve - Prosthetic valve endocarditis"
+        },
+        {
+          "id": "pathologic_prosthetic_108",
+          "label": "Prosthetic Valve - Pathologic regurgitation"
+        },
+        {
+          "id": "perivalvular_prosthetic_109",
+          "label": "Prosthetic Valve - Perivalvular regurgitation"
+        },
+        {
+          "id": "elevated_prosthetic_110",
+          "label": "Prosthetic Valve - Abnormally high gradient"
+        },
+        {
+          "id": "obstruction_prosthetic_111",
+          "label": "Prosthetic Valve - Obstruction"
+        },
+        {
+          "id": "dehiscense_prosthetic_112",
+          "label": "Prosthetic Valve - Dehiscence"
+        }
+      ]
+    },
+    {
+      "id": "mild_moderate",
+      "label": "Mild / Moderate",
+      "data": [
+        {
+          "id": "mild_mitral_stenosis_108",
+          "label": "Mitral Valve Stenosis - Mild / Moderate"
+        },
+        {
+          "id": "mild_aortic_stenosis_107",
+          "label": "Aortic Valve Stenosis - Mild / Moderate"
+        },
+        {
+          "id": "mild_pulmonic_stenosis_110",
+          "label": "Pulmonic Valve Stenosis - Mild / Moderate"
+        },
+        {
+          "id": "mild_tricuspid_stenosis_109",
+          "label": "Tricuspid Valve Stenosis - Mild / Moderate"
+        },
+        {
+          "id": "mild_mitral_regurgitation_112",
+          "label": "Mitral Valve Regurgitation - Mild / Moderate"
+        },
+        {
+          "id": "mild_aortic_regurgitation_111",
+          "label": "Aortic Valve Regurgitation - Mild / Moderate"
+        },
+        {
+          "id": "mild_pulmonic_regurgitation_114",
+          "label": "Pulmonic Valve Regurgitation - Mild / Moderate"
+        },
+        {
+          "id": "mild_tricuspid_regurgitation_113",
+          "label": "Tricuspid Valve Regurgitation - Mild / Moderate"
+        }
+      ]
+    },
+    {
+      "id": "severe",
+      "label": "Severe",
+      "data": [
+        {
+          "id": "severe_mitral_stenosis_116",
+          "label": "Mitral Valve Stenosis - Severe"
+        },
+        {
+          "id": "severe_aortic_stenosis_115",
+          "label": "Aortic Valve Stenosis - Severe"
+        },
+        {
+          "id": "severe_pulmonic_stenosis_118",
+          "label": "Pulmonic Valve Stenosis - Severe"
+        },
+        {
+          "id": "severe_tricuspid_stenosis_117",
+          "label": "Tricuspid Valve Stenosis - Severe"
+        },
+        {
+          "id": "severe_mitral_regurgitation_120",
+          "label": "Mitral Valve Regurgitation - Severe"
+        },
+        {
+          "id": "severe_aortic_regurgitation_119",
+          "label": "Aortic Valve Regurgitation - Severe"
+        },
+        {
+          "id": "severe_pulmonic_regurgitation_122",
+          "label": "Pulmonic Valve Regurgitation - Severe"
+        },
+        {
+          "id": "severe_tricuspid_regurgitation_121",
+          "label": "Tricuspid Valve Regurgitation - Severe"
+        }
+      ]
+    },
+    {
+      "id": "pulmonary_disease",
+      "label": "Pulmonary Disease",
+      "data": [
+        {
+          "id": "acute_pulmonary_embolism_123",
+          "label": "Acute Pulmonary Embolism"
+        },
+        {
+          "id": "acute_pulmonary_hypertension_124",
+          "label": "Pulmonary Hypertension"
+        }
+      ]
+    },
+    {
+      "id": "aortic_disease",
+      "label": "Aortic Diseases",
+      "data": [
+        {
+          "id": "type_a_dissection_126",
+          "label": "Type A dissection"
+        },
+        {
+          "id": "type_b_dissection_127",
+          "label": "Type B dissection"
+        },
+        {
+          "id": "marfan_syndrome_125",
+          "label": "Marfan Syndrome"
+        },
+        {
+          "id": "intramural_hematoma_128",
+          "label": "Intramural Hematoma"
+        },
+        {
+          "id": "aortic_ulcer_129",
+          "label": "Aortic Ulcer"
+        },
+        {
+          "id": "aortic_enlargement_130",
+          "label": "Aortic Enlargement Or Aneurysm"
+        },
+        {
+          "id": "aortic_rupture_131",
+          "label": "Aortic Rupture"
+        },
+        {
+          "id": "valsalva_aneurysm_132",
+          "label": "Sinus of Valsalva Aneurysm"
+        },
+        {
+          "id": "valsalva_rupture_133",
+          "label": "Sinus of Valsalva Rupture"
+        },
+        {
+          "id": "coarctation_134",
+          "label": "Coarctation"
+        }
+      ]
+    },
+    {
+      "id": "pericardial_pleural_conditions",
+      "label": "Pericardial / Pleural Conditions",
+      "data": [
+        {
+          "id": "pericardial_effusion_135",
+          "label": "Pericardial Effusion w/o tamponade"
+        },
+        {
+          "id": "tamponade_136",
+          "label": "Tamponade"
+        },
+        {
+          "id": "pericardial_mass_137",
+          "label": "Pericardial Mass Or Hemopericardium"
+        },
+        {
+          "id": "pericardial_constriction_138",
+          "label": "Pericardial Constriction"
+        },
+        {
+          "id": "pericardial_cyst_139",
+          "label": "Pericardial Cyst"
+        },
+        {
+          "id": "pleural_effusion_140",
+          "label": "Pleural Effusion"
+        }
+      ]
+    },
+    {
+      "id": "rv_function_structure_size",
+      "label": "RV Function, Structure, Size",
+      "data": [
+        {
+          "id": "enlarged_rv_141",
+          "label": "RV Enlarged"
+        },
+        {
+          "id": "rv_intact_142",
+          "label": "RV Infarct"
+        },
+        {
+          "id": "global_hypokinesis_143",
+          "label": "Global RV Hypokinesis"
+        },
+        {
+          "id": "rv_volume_overload_144",
+          "label": "RV Volume Overload"
+        },
+        {
+          "id": "rv_pressure_overload_145",
+          "label": "RV Pressure Overload"
+        },
+        {
+          "id": "catheter_pacemaker_wire_146",
+          "label": "Catheter or pacemaker in RV"
+        },
+        {
+          "id": "rv_mass_thrombus_147",
+          "label": "Mass or thrombus in RV"
+        }
+      ]
+    }
+  ]
+}

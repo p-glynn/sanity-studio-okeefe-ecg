@@ -1,0 +1,438 @@
+{
+  "groups": [
+    {
+      "id": "general_characteristics",
+      "label": "General Characteristics",
+      "data": [
+        {
+          "id": "normal_01",
+          "label": "Normal ECG"
+        },
+        {
+          "id": "borderline_normal_normal_variant_ecg_02",
+          "label": "Normal Variant ECG"
+        },
+        {
+          "id": "incorrect_electrode_placement_03",
+          "label": "Incorrect Electrode Placement"
+        },
+        {
+          "id": "artifact_04",
+          "label": "Artifact"
+        }
+      ]
+    },
+    {
+      "id": "atrial_enlargement",
+      "label": "Atrial Enlargement",
+      "data": [
+        {
+          "id": "right_atrial_enlargement_05",
+          "label": "Right Atrial Abnormality / Enlargement"
+        },
+        {
+          "id": "left_atrial_enlargement_06",
+          "label": "Left Atrial Abnormality / Enlargement"
+        }
+      ]
+    },
+    {
+      "id": "atrial_rhythms",
+      "label": "Atrial Rhythms",
+      "data": [
+        {
+          "id": "sinus_rhythm_07",
+          "label": "Sinus Rhythm"
+        },
+        {
+          "id": "sinus_arrhythmia_08",
+          "label": "Sinus Arrhythmia"
+        },
+        {
+          "id": "sinus_bradycardia_09",
+          "label": "Sinus Bradycardia (<60 BPM)"
+        },
+        {
+          "id": "sinus_tachycardia_10",
+          "label": "Sinus Tachycardia (>100 BPM)"
+        },
+        {
+          "id": "sinus_pause_or_arrest_11",
+          "label": "Sinus Pause or Arrest"
+        },
+        {
+          "id": "sinoatrial_sa_exit_block_12",
+          "label": "Sinoatiral (SA) Exit Block"
+        },
+        {
+          "id": "atrial_premature_complexes_apc_13",
+          "label": "Atrial Premature Complex(es) (APCs)"
+        },
+        {
+          "id": "atrial_tachycardia_14",
+          "label": "Atrial Tachycardia"
+        },
+        {
+          "id": "multifocal_atrial_tachycardia_mat_15",
+          "label": "Multifocal Atrial Tachycardia (MAT)"
+        },
+        {
+          "id": "supraventricular_tachycardia_svt_16",
+          "label": "Supraventricular Tachycardia (SVT)"
+        },
+        {
+          "id": "atrial_flutter_17",
+          "label": "Atrial Flutter"
+        },
+        {
+          "id": "atrial_fibrillation_18",
+          "label": "Atrial Fibrillation (AFIB)"
+        }
+      ]
+    },
+    {
+      "id": "junctional_rhythm",
+      "label": "Junctional Rhythm",
+      "data": [
+        {
+          "id": "av_junctional_premature_complexes_jpc_19",
+          "label": "AV Junctional Premature Complex(es) (JPCs)"
+        },
+        {
+          "id": "av_junctional_escape_complex_es_20",
+          "label": "AV Junctional Escape Complex(es)"
+        },
+        {
+          "id": "av_junctional_rhythmtachycardia_21",
+          "label": "AV Junctional Rhythm/Tachycardia"
+        }
+      ]
+    },
+    {
+      "id": "ventricular_rhythms",
+      "label": "Ventricular Rhythms",
+      "data": [
+        {
+          "id": "ventricular_premature_complexes_vpc_22",
+          "label": "Ventricular Premature Complex(es) (VPCs)"
+        },
+        {
+          "id": "ventricular_parasystole_23",
+          "label": "Ventricular Parasystole"
+        },
+        {
+          "id": "ventricular_tachycardia_3_successive_vpcs_vt_24",
+          "label": "Ventricular Tachycardia (≥3 Successive VPCs) (VT)"
+        },
+        {
+          "id": "accelerated_idioventricular_rhythm_aivr_25",
+          "label": "Accelerated Idioventricular Rhythm (AIVR)"
+        },
+        {
+          "id": "ventricular_escape_complexesrhythm_26",
+          "label": "Ventricular Escape Complex(es) / Rhythm"
+        },
+        {
+          "id": "ventricular_fibrillation_vf_27",
+          "label": "Ventricular Fibrillation (VF)"
+        }
+      ]
+    },
+    {
+      "id": "conduction_abnormalities",
+      "label": "AV Node Conduction Abnormalities",
+      "data": [
+        {
+          "id": "av_block_1_28",
+          "label": "AV Block 1°"
+        },
+        {
+          "id": "av_block_2_mobitz_type_i_wenckebach_29",
+          "label": "AV Block, 2° - Mobitz Type I (Wenckebach)"
+        },
+        {
+          "id": "av_block_2_mobitz_type_ii_30",
+          "label": "AV Block, 2° - Mobitz Type II"
+        },
+        {
+          "id": "av_block_2_1_31",
+          "label": "AV Block, 2:1"
+        },
+        {
+          "id": "av_block_3_complete_heart_block_32",
+          "label": "AV Block, 3 (Complete Heart Block)"
+        },
+        {
+          "id": "wolff_parkinson_white_pattern_wpw_33",
+          "label": "Wolff-Parkinson-White Pattern (WPW)"
+        },
+        {
+          "id": "av_dissociation_34",
+          "label": "AV Dissociation"
+        }
+      ]
+    },
+    {
+      "id": "qrs_voltage_axis_abnormalities",
+      "label": "QRS Voltage / Axis Abnormalities",
+      "data": [
+        {
+          "id": "low_voltage_limb_leads_35",
+          "label": "Low Voltage, Limb Leads"
+        },
+        {
+          "id": "low_voltage_precordial_leads_36",
+          "label": "Low Voltage, Precordial Leads"
+        },
+        {
+          "id": "left_axis_deviation_37",
+          "label": "Left Axis Deviation (< - 30°)"
+        },
+        {
+          "id": "right_axis_deviation_38",
+          "label": "Right Axis Deviation (> + 100°)"
+        },
+        {
+          "id": "electrical_alternans_39",
+          "label": "Electrical Alternans"
+        }
+      ]
+    },
+    {
+      "id": "ventricular_hypertrophy",
+      "label": "Ventricular Hypertrophy",
+      "data": [
+        {
+          "id": "left_ventricular_hypertrophy_lvh_40",
+          "label": "Left Ventricular Hypertrophy (LVH)"
+        },
+        {
+          "id": "right_ventricular_hypertrophy_rvh_41",
+          "label": "Right Ventricular Hypertrophy (RVH)"
+        },
+        {
+          "id": "combined_ventricular_hypertrophy_42",
+          "label": "Combined Ventricular (Biventricular) Hypertrophy"
+        }
+      ]
+    },
+    {
+      "id": "clinical_conditions",
+      "label": "Clinical Conditions",
+      "data": [
+        {
+          "id": "brugada_syndrome_70",
+          "label": "Brugada Syndrome"
+        },
+        {
+          "id": "digitalis_toxicity_71",
+          "label": "Digitalis Toxicity"
+        },
+        {
+          "id": "torsades_de_pointes_72",
+          "label": "Torsades de Pointes"
+        },
+        {
+          "id": "hyperkalemia_73",
+          "label": "Hyperkalemia"
+        },
+        {
+          "id": "hypokalemia_74",
+          "label": "Hypokalemia"
+        },
+        {
+          "id": "hypercalcemia_75",
+          "label": "Hypercalcemia"
+        },
+        {
+          "id": "hypocalcemia_76",
+          "label": "Hypocalcemia"
+        },
+        {
+          "id": "dextrocardia_mirror_image_77",
+          "label": "Dextrocardia, Mirror Image"
+        },
+        {
+          "id": "acute_cor_pulmonale_pulmonary_embolus_78",
+          "label": "Acute Cor Pulmonale / Pulmonary Embolus"
+        },
+        {
+          "id": "pericardial_effusion_79",
+          "label": "Pericardial Effusion"
+        },
+        {
+          "id": "acute_pericarditis_80",
+          "label": "Acute Pericarditis"
+        },
+        {
+          "id": "hypertrophic_cardiomyopathy_hcm_81",
+          "label": "Hypertrophic Cardiomyopathy (HCM)"
+        },
+        {
+          "id": "central_nervous_system_cns_disorder_82",
+          "label": "Central Nervous System (CNS) Disorder"
+        },
+        {
+          "id": "hypothermia_83",
+          "label": "Hypothermia"
+        }
+      ]
+    },
+    {
+      "id": "intraventricular_conduction_abnormalities",
+      "label": "Intraventricular Conduction Abnormalities",
+      "data": [
+        {
+          "id": "right_bundle_branch_block_complete_rbbb_43",
+          "label": "Right Bundle Branch Block, Complete (RBBB)"
+        },
+        {
+          "id": "right_bundle_branch_block_incomplete_irbbb_44",
+          "label": "Right Bundle Branch Block, Incomplete (iRBBB)"
+        },
+        {
+          "id": "left_posterior_fascicular_block_lpfb_46",
+          "label": "Left Posterior Fascicular Block (LPFB)"
+        },
+        {
+          "id": "left_anterior_fascicular_block_lafb_45",
+          "label": "Left Anterior Fascicular Block (LAFB)"
+        },
+        {
+          "id": "left_bundle_branch_block_complete_lbbb_47",
+          "label": "Left Bundle Branch Block, Complete (LBBB)"
+        },
+        {
+          "id": "left_bundle_branch_block_incomplete_ilbbb_48",
+          "label": "Left Bundle Branch Block, Incomplete (iLBBB)"
+        },
+        {
+          "id": "aberrant_conduction_including_rate_related_49",
+          "label": "Aberrant Conduction (including rate-related)"
+        },
+        {
+          "id": "nonspecific_iv_conduction_disturbance_50",
+          "label": "Nonspecific IV Conduction Disturbance (IVCD)"
+        }
+      ]
+    },
+    {
+      "id": "q_wave_myocardial_infarction_age",
+      "label": "Q Wave Myocardial Infarction (Age)",
+      "data": [
+        {
+          "id": "anterolateral_mi_acute_recent_51",
+          "label": "Anterolateral MI (acute / recent)"
+        },
+        {
+          "id": "anterolateral_mi_old_indeterminate_52",
+          "label": "Anterolateral MI (old / age indeterminate)"
+        },
+        {
+          "id": "anterior_or_anteroseptal_mi_acute_recent_53",
+          "label": "Anterior or Anteroseptal MI (acute / recent)"
+        },
+        {
+          "id": "anterior_anteroseptal_mi_old_indeterminate_54",
+          "label": "Anterior/Anteroseptal MI (old / age indeterminate)"
+        },
+        {
+          "id": "lateral_mi_acute_recent_55",
+          "label": "Lateral MI (acute / recent)"
+        },
+        {
+          "id": "lateral_mi_old_indeterminate_56",
+          "label": "Lateral MI (old / age indeterminate)"
+        },
+        {
+          "id": "inferior_mi_acute_recent_57",
+          "label": "Inferior MI (acute / recent)"
+        },
+        {
+          "id": "inferior_mi_old_indeterminate_58",
+          "label": "Inferior MI (old / age indeterminate)"
+        },
+        {
+          "id": "posterior_mi_acute_recent_59",
+          "label": "Posterior MI (acute / recent)"
+        },
+        {
+          "id": "posterior_mi_old_indeterminate_60",
+          "label": "Posterior MI (old / age indeterminate)"
+        }
+      ]
+    },
+    {
+      "id": "repolarization_abnormalities",
+      "label": "Repolarization Abnormalities",
+      "data": [
+        {
+          "id": "early_repolarization_normal_variant_61",
+          "label": "Early Repolarization, Normal Variant"
+        },
+        {
+          "id": "juvenile_t_waves_normal_variant_62",
+          "label": "Juvenile T Waves, Normal Variant"
+        },
+        {
+          "id": "st_t_changes_nonspecific_63",
+          "label": "Nonspecific ST-T Abnormalities"
+        },
+        {
+          "id": "st_t_changes_suggesting_myocardial_ischemia_64",
+          "label": "ST-T Changes suggesting Myocardial Ischemia"
+        },
+        {
+          "id": "st_t_changes_suggesting_myocardial_injury_65",
+          "label": "ST-T Changes suggesting Myocardial Injury"
+        },
+        {
+          "id": "st_t_changes_suggesting_electrolyte_disturbance_66",
+          "label": "ST-T Changes suggesting Electrolyte Disturbance"
+        },
+        {
+          "id": "st_t_changes_of_hypertrophy_67",
+          "label": "ST-T Changes secondary to Hypertrophy"
+        },
+        {
+          "id": "prolonged_qt_interval_68",
+          "label": "Prolonged QT Interval"
+        },
+        {
+          "id": "prominent_u_waves_69",
+          "label": "Prominent U Wave(s)"
+        }
+      ]
+    },
+    {
+      "id": "pacemakers_function",
+      "label": "Pacemakers / Function",
+      "data": [
+        {
+          "id": "atrial_or_coronary_sinus_pacing_84",
+          "label": "Atrial Pacing"
+        },
+        {
+          "id": "ventricular_demand_pacemaker_vvi_normal_85",
+          "label": "Ventricular Demand Pacemaker (VVI), Normal"
+        },
+        {
+          "id": "dual_chamber_pacemaker_ddd_normal_86",
+          "label": "Dual-Chamber Pacemaker (DDD), Normal"
+        },
+        {
+          "id": "pacemaker_malfunction_failure_to_capture_87",
+          "label": "Pacemaker Malfunction, failure to capture"
+        },
+        {
+          "id": "pacemaker_malfunction_failure_to_sense_88",
+          "label": "Pacemaker Malfunction, sensing abnormality"
+        },
+        {
+          "id": "biventricular_pacing_89",
+          "label": "Biventricular Pacing"
+        }
+      ]
+    }
+  ]
+}
