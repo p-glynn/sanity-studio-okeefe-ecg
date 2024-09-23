@@ -1,0 +1,132 @@
+{
+  "fieldsets": [
+    {
+      "name": "normal_angiogram",
+      "title": "Normal Angiogram",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "severe_stenosis",
+      "title": "Severe Stenosis",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "moderate_stenosis",
+      "title": "Moderate Stenosis",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "insignificant_stenosis",
+      "title": "Insignificant Stenosis",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "total_occlusion",
+      "title": "Total Occlusion",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "filled_by_collaterals",
+      "title": "Filled by Collaterals",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "coronary_spasm",
+      "title": "Coronary Spasm",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "myocardial_bridging",
+      "title": "Myocardial Bridging",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "anomalous_coronary_origin",
+      "title": "Anomalous Coronary Origin",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "coronary_fistula",
+      "title": "Coronary Fistula",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "coronary_artery_thrombus_present",
+      "title": "Coronary Artery Thrombus Present",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "bypass_graft",
+      "title": "Bypass Graft",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "dissection",
+      "title": "Dissection",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "severe_ectasia",
+      "title": "Severe Ectasia / Aneurysm",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "stent_occluded",
+      "title": "Occluded Coronary Stent",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "patent_coronary_stent",
+      "title": "Patent Coronary Stent",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    }
+  ]
+}

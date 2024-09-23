@@ -1,0 +1,236 @@
+{
+  "fieldsets": [
+    {
+      "name": "mi_complications",
+      "title": "MI Complications",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "lv_size",
+      "title": "LV Size",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "lv_wall_thickness",
+      "title": "LV Wall Thickness",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "lv_masses",
+      "title": "LV Masses",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "lv_ejection_fraction",
+      "title": "LV Ejection Fraction",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "lv_diastolic_function",
+      "title": "LV Diastolic Function",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "wall_motion_abnormalities",
+      "title": "Regional Wall Motion Abnormalities",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "hypokinesis",
+      "title": "Hypokinesis",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "akinesis",
+      "title": "Akinesis",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "thinning_scar",
+      "title": "Thinning and/or Scar",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "aneurysm",
+      "title": "Aneurysm",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "pseudoaneurysm",
+      "title": "Pseudoaneurysm",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "ischemia",
+      "title": "Ischemia (with stress echo)",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "viability",
+      "title": "Viability (with stress echo)",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "adult_congenital_heart_disease",
+      "title": "Adult Congenital Heart Disease",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "atrial_diseases",
+      "title": "Atrial Diseases",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "cardiomyopathies",
+      "title": "Cardiomyopathies",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "systemic_diseases",
+      "title": "Systemic Diseases",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "aortic_valve",
+      "title": "Aortic Valve",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "mitral_valve",
+      "title": "Mitral Valve",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "tricuspid_valve",
+      "title": "Tricuspid Valve",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "pulmonic_valve",
+      "title": "Pulmonic Valve",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "prosthetic_valve",
+      "title": "Prosthetic Valve",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "mild_moderate",
+      "title": "Mild / Moderate",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "severe",
+      "title": "Severe",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "pulmonary_disease",
+      "title": "Pulmonary Disease",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "aortic_disease",
+      "title": "Aortic Diseases",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "pericardial_pleural_conditions",
+      "title": "Pericardial / Pleural Conditions",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "rv_function_structure_size",
+      "title": "RV Function, Structure, Size",
+      "options": {
+        "collapsible": true,
+        "collapsed": true
+      }
+    }
+  ]
+}

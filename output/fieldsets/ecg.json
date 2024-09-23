@@ -1,0 +1,108 @@
+{
+    "fieldsets": [
+        {
+            "name": "general_characteristics",
+            "title": "General Characteristics",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "atrial_enlargement",
+            "title": "Atrial Enlargement",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "atrial_rhythms",
+            "title": "Atrial Rhythms",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "junctional_rhythm",
+            "title": "Junctional Rhythm",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "ventricular_rhythms",
+            "title": "Ventricular Rhythms",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "conduction_abnormalities",
+            "title": "AV Node Conduction Abnormalities",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "qrs_voltage_axis_abnormalities",
+            "title": "QRS Voltage / Axis Abnormalities",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "ventricular_hypertrophy",
+            "title": "Ventricular Hypertrophy",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "clinical_conditions",
+            "title": "Clinical Conditions",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "intraventricular_conduction_abnormalities",
+            "title": "Intraventricular Conduction Abnormalities",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "q_wave_myocardial_infarction_age",
+            "title": "Q Wave Myocardial Infarction (Age)",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "repolarization_abnormalities",
+            "title": "Repolarization Abnormalities",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        },
+        {
+            "name": "pacemakers_function",
+            "title": "Pacemakers / Function",
+            "options": {
+                "collapsible": true,
+                "collapsed": false
+            }
+        }
+    ]
+}

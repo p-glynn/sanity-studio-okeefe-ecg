@@ -1,0 +1,538 @@
+{
+  "fields": [
+    {
+      "name": "normal_01",
+      "type": "number",
+      "title": "Normal ECG",
+      "fieldset": "general_characteristics"
+    },
+    {
+      "name": "borderline_normal_normal_variant_ecg_02",
+      "type": "number",
+      "title": "Normal Variant ECG",
+      "fieldset": "general_characteristics"
+    },
+    {
+      "name": "incorrect_electrode_placement_03",
+      "type": "number",
+      "title": "Incorrect Electrode Placement",
+      "fieldset": "general_characteristics"
+    },
+    {
+      "name": "artifact_04",
+      "type": "number",
+      "title": "Artifact",
+      "fieldset": "general_characteristics"
+    },
+    {
+      "name": "right_atrial_enlargement_05",
+      "type": "number",
+      "title": "Right Atrial Abnormality / Enlargement",
+      "fieldset": "atrial_enlargement"
+    },
+    {
+      "name": "left_atrial_enlargement_06",
+      "type": "number",
+      "title": "Left Atrial Abnormality / Enlargement",
+      "fieldset": "atrial_enlargement"
+    },
+    {
+      "name": "sinus_rhythm_07",
+      "type": "number",
+      "title": "Sinus Rhythm",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "sinus_arrhythmia_08",
+      "type": "number",
+      "title": "Sinus Arrhythmia",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "sinus_bradycardia_09",
+      "type": "number",
+      "title": "Sinus Bradycardia (<60 BPM)",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "sinus_tachycardia_10",
+      "type": "number",
+      "title": "Sinus Tachycardia (>100 BPM)",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "sinus_pause_or_arrest_11",
+      "type": "number",
+      "title": "Sinus Pause or Arrest",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "sinoatrial_sa_exit_block_12",
+      "type": "number",
+      "title": "Sinoatiral (SA) Exit Block",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "atrial_premature_complexes_apc_13",
+      "type": "number",
+      "title": "Atrial Premature Complex(es) (APCs)",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "atrial_tachycardia_14",
+      "type": "number",
+      "title": "Atrial Tachycardia",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "multifocal_atrial_tachycardia_mat_15",
+      "type": "number",
+      "title": "Multifocal Atrial Tachycardia (MAT)",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "supraventricular_tachycardia_svt_16",
+      "type": "number",
+      "title": "Supraventricular Tachycardia (SVT)",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "atrial_flutter_17",
+      "type": "number",
+      "title": "Atrial Flutter",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "atrial_fibrillation_18",
+      "type": "number",
+      "title": "Atrial Fibrillation (AFIB)",
+      "fieldset": "atrial_rhythms"
+    },
+    {
+      "name": "av_junctional_premature_complexes_jpc_19",
+      "type": "number",
+      "title": "AV Junctional Premature Complex(es) (JPCs)",
+      "fieldset": "junctional_rhythm"
+    },
+    {
+      "name": "av_junctional_escape_complex_es_20",
+      "type": "number",
+      "title": "AV Junctional Escape Complex(es)",
+      "fieldset": "junctional_rhythm"
+    },
+    {
+      "name": "av_junctional_rhythmtachycardia_21",
+      "type": "number",
+      "title": "AV Junctional Rhythm/Tachycardia",
+      "fieldset": "junctional_rhythm"
+    },
+    {
+      "name": "ventricular_premature_complexes_vpc_22",
+      "type": "number",
+      "title": "Ventricular Premature Complex(es) (VPCs)",
+      "fieldset": "ventricular_rhythms"
+    },
+    {
+      "name": "ventricular_parasystole_23",
+      "type": "number",
+      "title": "Ventricular Parasystole",
+      "fieldset": "ventricular_rhythms"
+    },
+    {
+      "name": "ventricular_tachycardia_3_successive_vpcs_vt_24",
+      "type": "number",
+      "title": "Ventricular Tachycardia (≥3 Successive VPCs) (VT)",
+      "fieldset": "ventricular_rhythms"
+    },
+    {
+      "name": "accelerated_idioventricular_rhythm_aivr_25",
+      "type": "number",
+      "title": "Accelerated Idioventricular Rhythm (AIVR)",
+      "fieldset": "ventricular_rhythms"
+    },
+    {
+      "name": "ventricular_escape_complexesrhythm_26",
+      "type": "number",
+      "title": "Ventricular Escape Complex(es) / Rhythm",
+      "fieldset": "ventricular_rhythms"
+    },
+    {
+      "name": "ventricular_fibrillation_vf_27",
+      "type": "number",
+      "title": "Ventricular Fibrillation (VF)",
+      "fieldset": "ventricular_rhythms"
+    },
+    {
+      "name": "av_block_1_28",
+      "type": "number",
+      "title": "AV Block 1°",
+      "fieldset": "conduction_abnormalities"
+    },
+    {
+      "name": "av_block_2_mobitz_type_i_wenckebach_29",
+      "type": "number",
+      "title": "AV Block, 2° - Mobitz Type I (Wenckebach)",
+      "fieldset": "conduction_abnormalities"
+    },
+    {
+      "name": "av_block_2_mobitz_type_ii_30",
+      "type": "number",
+      "title": "AV Block, 2° - Mobitz Type II",
+      "fieldset": "conduction_abnormalities"
+    },
+    {
+      "name": "av_block_2_1_31",
+      "type": "number",
+      "title": "AV Block, 2:1",
+      "fieldset": "conduction_abnormalities"
+    },
+    {
+      "name": "av_block_3_complete_heart_block_32",
+      "type": "number",
+      "title": "AV Block, 3 (Complete Heart Block)",
+      "fieldset": "conduction_abnormalities"
+    },
+    {
+      "name": "wolff_parkinson_white_pattern_wpw_33",
+      "type": "number",
+      "title": "Wolff-Parkinson-White Pattern (WPW)",
+      "fieldset": "conduction_abnormalities"
+    },
+    {
+      "name": "av_dissociation_34",
+      "type": "number",
+      "title": "AV Dissociation",
+      "fieldset": "conduction_abnormalities"
+    },
+    {
+      "name": "low_voltage_limb_leads_35",
+      "type": "number",
+      "title": "Low Voltage, Limb Leads",
+      "fieldset": "qrs_voltage_axis_abnormalities"
+    },
+    {
+      "name": "low_voltage_precordial_leads_36",
+      "type": "number",
+      "title": "Low Voltage, Precordial Leads",
+      "fieldset": "qrs_voltage_axis_abnormalities"
+    },
+    {
+      "name": "left_axis_deviation_37",
+      "type": "number",
+      "title": "Left Axis Deviation (< - 30°)",
+      "fieldset": "qrs_voltage_axis_abnormalities"
+    },
+    {
+      "name": "right_axis_deviation_38",
+      "type": "number",
+      "title": "Right Axis Deviation (> + 100°)",
+      "fieldset": "qrs_voltage_axis_abnormalities"
+    },
+    {
+      "name": "electrical_alternans_39",
+      "type": "number",
+      "title": "Electrical Alternans",
+      "fieldset": "qrs_voltage_axis_abnormalities"
+    },
+    {
+      "name": "left_ventricular_hypertrophy_lvh_40",
+      "type": "number",
+      "title": "Left Ventricular Hypertrophy (LVH)",
+      "fieldset": "ventricular_hypertrophy"
+    },
+    {
+      "name": "right_ventricular_hypertrophy_rvh_41",
+      "type": "number",
+      "title": "Right Ventricular Hypertrophy (RVH)",
+      "fieldset": "ventricular_hypertrophy"
+    },
+    {
+      "name": "combined_ventricular_hypertrophy_42",
+      "type": "number",
+      "title": "Combined Ventricular (Biventricular) Hypertrophy",
+      "fieldset": "ventricular_hypertrophy"
+    },
+    {
+      "name": "brugada_syndrome_70",
+      "type": "number",
+      "title": "Brugada Syndrome",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "digitalis_toxicity_71",
+      "type": "number",
+      "title": "Digitalis Toxicity",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "torsades_de_pointes_72",
+      "type": "number",
+      "title": "Torsades de Pointes",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "hyperkalemia_73",
+      "type": "number",
+      "title": "Hyperkalemia",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "hypokalemia_74",
+      "type": "number",
+      "title": "Hypokalemia",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "hypercalcemia_75",
+      "type": "number",
+      "title": "Hypercalcemia",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "hypocalcemia_76",
+      "type": "number",
+      "title": "Hypocalcemia",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "dextrocardia_mirror_image_77",
+      "type": "number",
+      "title": "Dextrocardia, Mirror Image",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "acute_cor_pulmonale_pulmonary_embolus_78",
+      "type": "number",
+      "title": "Acute Cor Pulmonale / Pulmonary Embolus",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "pericardial_effusion_79",
+      "type": "number",
+      "title": "Pericardial Effusion",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "acute_pericarditis_80",
+      "type": "number",
+      "title": "Acute Pericarditis",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "hypertrophic_cardiomyopathy_hcm_81",
+      "type": "number",
+      "title": "Hypertrophic Cardiomyopathy (HCM)",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "central_nervous_system_cns_disorder_82",
+      "type": "number",
+      "title": "Central Nervous System (CNS) Disorder",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "hypothermia_83",
+      "type": "number",
+      "title": "Hypothermia",
+      "fieldset": "clinical_conditions"
+    },
+    {
+      "name": "right_bundle_branch_block_complete_rbbb_43",
+      "type": "number",
+      "title": "Right Bundle Branch Block, Complete (RBBB)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "right_bundle_branch_block_incomplete_irbbb_44",
+      "type": "number",
+      "title": "Right Bundle Branch Block, Incomplete (iRBBB)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "left_posterior_fascicular_block_lpfb_46",
+      "type": "number",
+      "title": "Left Posterior Fascicular Block (LPFB)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "left_anterior_fascicular_block_lafb_45",
+      "type": "number",
+      "title": "Left Anterior Fascicular Block (LAFB)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "left_bundle_branch_block_complete_lbbb_47",
+      "type": "number",
+      "title": "Left Bundle Branch Block, Complete (LBBB)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "left_bundle_branch_block_incomplete_ilbbb_48",
+      "type": "number",
+      "title": "Left Bundle Branch Block, Incomplete (iLBBB)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "aberrant_conduction_including_rate_related_49",
+      "type": "number",
+      "title": "Aberrant Conduction (including rate-related)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "nonspecific_iv_conduction_disturbance_50",
+      "type": "number",
+      "title": "Nonspecific IV Conduction Disturbance (IVCD)",
+      "fieldset": "intraventricular_conduction_abnormalities"
+    },
+    {
+      "name": "anterolateral_mi_acute_recent_51",
+      "type": "number",
+      "title": "Anterolateral MI (acute / recent)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "anterolateral_mi_old_indeterminate_52",
+      "type": "number",
+      "title": "Anterolateral MI (old / age indeterminate)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "anterior_or_anteroseptal_mi_acute_recent_53",
+      "type": "number",
+      "title": "Anterior or Anteroseptal MI (acute / recent)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "anterior_anteroseptal_mi_old_indeterminate_54",
+      "type": "number",
+      "title": "Anterior/Anteroseptal MI (old / age indeterminate)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "lateral_mi_acute_recent_55",
+      "type": "number",
+      "title": "Lateral MI (acute / recent)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "lateral_mi_old_indeterminate_56",
+      "type": "number",
+      "title": "Lateral MI (old / age indeterminate)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "inferior_mi_acute_recent_57",
+      "type": "number",
+      "title": "Inferior MI (acute / recent)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "inferior_mi_old_indeterminate_58",
+      "type": "number",
+      "title": "Inferior MI (old / age indeterminate)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "posterior_mi_acute_recent_59",
+      "type": "number",
+      "title": "Posterior MI (acute / recent)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "posterior_mi_old_indeterminate_60",
+      "type": "number",
+      "title": "Posterior MI (old / age indeterminate)",
+      "fieldset": "q_wave_myocardial_infarction_age"
+    },
+    {
+      "name": "early_repolarization_normal_variant_61",
+      "type": "number",
+      "title": "Early Repolarization, Normal Variant",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "juvenile_t_waves_normal_variant_62",
+      "type": "number",
+      "title": "Juvenile T Waves, Normal Variant",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "st_t_changes_nonspecific_63",
+      "type": "number",
+      "title": "Nonspecific ST-T Abnormalities",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "st_t_changes_suggesting_myocardial_ischemia_64",
+      "type": "number",
+      "title": "ST-T Changes suggesting Myocardial Ischemia",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "st_t_changes_suggesting_myocardial_injury_65",
+      "type": "number",
+      "title": "ST-T Changes suggesting Myocardial Injury",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "st_t_changes_suggesting_electrolyte_disturbance_66",
+      "type": "number",
+      "title": "ST-T Changes suggesting Electrolyte Disturbance",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "st_t_changes_of_hypertrophy_67",
+      "type": "number",
+      "title": "ST-T Changes secondary to Hypertrophy",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "prolonged_qt_interval_68",
+      "type": "number",
+      "title": "Prolonged QT Interval",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "prominent_u_waves_69",
+      "type": "number",
+      "title": "Prominent U Wave(s)",
+      "fieldset": "repolarization_abnormalities"
+    },
+    {
+      "name": "atrial_or_coronary_sinus_pacing_84",
+      "type": "number",
+      "title": "Atrial Pacing",
+      "fieldset": "pacemakers_function"
+    },
+    {
+      "name": "ventricular_demand_pacemaker_vvi_normal_85",
+      "type": "number",
+      "title": "Ventricular Demand Pacemaker (VVI), Normal",
+      "fieldset": "pacemakers_function"
+    },
+    {
+      "name": "dual_chamber_pacemaker_ddd_normal_86",
+      "type": "number",
+      "title": "Dual-Chamber Pacemaker (DDD), Normal",
+      "fieldset": "pacemakers_function"
+    },
+    {
+      "name": "pacemaker_malfunction_failure_to_capture_87",
+      "type": "number",
+      "title": "Pacemaker Malfunction, failure to capture",
+      "fieldset": "pacemakers_function"
+    },
+    {
+      "name": "pacemaker_malfunction_failure_to_sense_88",
+      "type": "number",
+      "title": "Pacemaker Malfunction, sensing abnormality",
+      "fieldset": "pacemakers_function"
+    },
+    {
+      "name": "biventricular_pacing_89",
+      "type": "number",
+      "title": "Biventricular Pacing",
+      "fieldset": "pacemakers_function"
+    }
+  ]
+}
