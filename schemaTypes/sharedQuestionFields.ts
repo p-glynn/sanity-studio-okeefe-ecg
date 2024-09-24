@@ -38,12 +38,20 @@ export const sharedQuestionFields = [
         fieldset: 'basicFields',
     }),
     defineField({
+        title: 'Legacy ID (Deprecated)',
+        name: 'legacyId',
+        type: 'number',
+        description: 'The old ID from the previous database (WordPress post id)',
+        fieldset: 'deprecatedFields',
+        readOnly: true,
+    }),
+    defineField({
         title: 'Correct Answers (Deprecated)',
         name: 'correctAnswersDeprecated',
         type: 'array',
         of: [{type: 'block'}],
-        fieldset: 'basicFields',
-        deprecated: {reason: 'Mark the correct answers in the individual diagnosis blocks below instead'},
+        description: "Don't use this field - mark the correct answers in the individual diagnosis blocks below instead",
+        fieldset: 'deprecatedFields',
         readOnly: true,
     }),
     defineField({
@@ -79,5 +87,10 @@ export const sharedQuestionFieldsets = [
         name: 'mediaFields',
         title: 'Question Media Fields (images / videos)',
         options: {collapsible: true, collapsed: false},
+    },
+    {
+        name: 'deprecatedFields',
+        title: 'Legacy Fields for reference (do not use)',
+        options: {collapsible: true, collapsed: true},
     },
 ];
