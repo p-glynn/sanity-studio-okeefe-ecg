@@ -1,4 +1,4 @@
-import {optionalProperties} from '../constants';
+import {mediaProperties} from '../../constants';
 
 export interface InputData {
     id: string;
@@ -42,7 +42,7 @@ export interface WPResponse {
     data?: Question[];
 }
 
-export interface Question extends OptionalMediaProps<typeof optionalProperties> {
+export interface Question extends OptionalMediaProps<typeof mediaProperties> {
     id: number;
     question_title: string;
     question_type: string;
