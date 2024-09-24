@@ -12,7 +12,15 @@ export default defineConfig({
     projectId: '3g00hitf',
     dataset: 'production',
 
-    plugins: [structureTool({structure}), visionTool(), media()],
+    plugins: [
+        structureTool({
+            name: 'questions',
+            title: 'Questions',
+            structure,
+        }),
+        visionTool(),
+        media(),
+    ],
 
     schema: {
         types: schemaTypes,
