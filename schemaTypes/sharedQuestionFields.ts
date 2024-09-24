@@ -26,8 +26,9 @@ export const sharedQuestionFields = [
     }),
     defineField({
         name: 'text',
-        type: 'text',
+        type: 'array',
         title: 'Question Text (Explanation)',
+        of: [{type: 'block'}],
         fieldset: 'basicFields',
     }),
     defineField({
