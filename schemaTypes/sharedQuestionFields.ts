@@ -63,7 +63,7 @@ export const sharedQuestionFields = [
     }),
     defineField({
         title: 'Marked Images',
-        name: 'marked_images',
+        name: 'markedImages',
         type: 'array',
         of: [{type: 'image'}],
         fieldset: 'mediaFields',
