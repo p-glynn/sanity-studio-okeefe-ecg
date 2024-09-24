@@ -27,7 +27,7 @@ export async function fetchWordpressQuestions(fetchAll = false) {
             fetchAll
         );
         const subDir = fetchAll ? 'full' : 'test';
-        writeData(allData, `input/questions/${subDir}`, questionType);
+        writeData({data: allData}, `input/questions/${subDir}`, questionType);
     }
 }
 
