@@ -2,7 +2,7 @@ import get from 'axios';
 import {configDotenv} from 'dotenv';
 
 import {writeData} from './writeData';
-import {WPQueryOptions, WPAuthHeaders, Question} from './types/types';
+import {WPQueryOptions, WPAuthHeaders, Question} from './types';
 configDotenv();
 
 const {WP_REST_API_USER, WP_REST_API_PW} = process.env;
