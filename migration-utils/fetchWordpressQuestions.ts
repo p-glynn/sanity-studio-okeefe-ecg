@@ -5,27 +5,22 @@ import {writeData} from './writeData';
 import {WPQueryOptions, WPAuthHeaders, Question} from './types/types';
 configDotenv();
 
-export const {WP_REST_API_USER, WP_REST_API_PW} = process.env;
+const {WP_REST_API_USER, WP_REST_API_PW} = process.env;
 
 const pageSize = 25;
-const wpRestApiRequireAuth = false;
+const requireAuth = false;
 
 const questionTypes = ['angiogram', 'ecg', 'echo', 'cv_image'];
 
 // base WordPress REST API endpoint
 const path = `https://okeefeecg.com/wp-json/okeefe_ecg/api/migration/questions`;
 
-export async function fetchWordpressQuestions(fetchAll = false) {
+async function fetchWordpressQuestions(fetchAll = false) {
     console.log(`Fetching WordPress API data`);
 
     for (const questionType of questionTypes) {
-        const wpAuthHeaders = getWpRequestConfig(wpRestApiRequireAuth);
-        const allData = await fetchAllDataRecursive(
-            [],
-            {path, questionType, page: 1, pageSize},
-            wpAuthHeaders,
-            fetchAll
-        );
+        const authHeaders = getWpRequestConfig(requireAuth);
+        const allData = await fetchAllDataRecursive([], {path, questionType, page: 1, pageSize}, authHeaders, fetchAll);
         const subDir = fetchAll ? 'full' : 'test';
         writeData({data: allData}, `input/questions/${subDir}`, questionType);
     }
@@ -34,23 +29,23 @@ export async function fetchWordpressQuestions(fetchAll = false) {
 async function fetchAllDataRecursive(
     currentData: Question[] = [],
     {path, questionType, page, pageSize}: WPQueryOptions,
-    wpAuthHeaders: WPAuthHeaders,
+    authHeaders: WPAuthHeaders,
     fetchAll: boolean
 ) {
     const size = fetchAll ? pageSize : 5;
-    const {questions} = await fetchSinglePageData({path, questionType, page, pageSize: size}, wpAuthHeaders);
+    const {questions} = await fetchSinglePageData({path, questionType, page, pageSize: size}, authHeaders);
     const newData = [...currentData, ...questions];
     if (fetchAll && questions.length === pageSize) {
         const nextPage = page + 1;
-        return fetchAllDataRecursive(newData, {path, questionType, page: nextPage, pageSize}, wpAuthHeaders, fetchAll);
+        return fetchAllDataRecursive(newData, {path, questionType, page: nextPage, pageSize}, authHeaders, fetchAll);
     }
     return newData;
 }
 
-async function fetchSinglePageData({path, questionType, page, pageSize}: WPQueryOptions, wpAuthHeaders: WPAuthHeaders) {
+async function fetchSinglePageData({path, questionType, page, pageSize}: WPQueryOptions, authHeaders: WPAuthHeaders) {
     const requestUrl = `${path}?question_type=${questionType}&page=${page}&per_page=${pageSize}`;
     console.log(`Fetching page ${page} of ${questionType} questions`);
-    const {data} = await get(requestUrl, wpAuthHeaders);
+    const {data} = await get(requestUrl, authHeaders);
     try {
         return data;
     } catch (error) {
@@ -69,7 +64,7 @@ function getWpRequestConfig(requireAuth: boolean): WPAuthHeaders {
     return {};
 }
 
-async function main() {
+function main() {
     const args = process.argv.slice(2); // Ignore the first two arguments (node and script path)
     const fullFetch = args[0] === 'full';
     fetchWordpressQuestions(fullFetch);
