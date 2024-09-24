@@ -1,6 +1,6 @@
 import {readFile} from 'fs/promises';
 import {writeData} from './writeData';
-import {Group, InputData, Field, Fieldset} from './types/types';
+import {Group, InputData, Field, Fieldset} from './types';
 
 async function main() {
     const args = process.argv.slice(2); // Ignore the first two arguments (node and script path)
