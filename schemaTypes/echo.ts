@@ -1337,4 +1337,21 @@ export default defineType({
             validation: (Rule) => Rule.positive(),
         }),
     ],
+    preview: {
+        select: {
+            index: 'index',
+            title: 'title',
+            images: 'images',
+            markedImages: 'markedImages',
+            videos: 'videos',
+        },
+        prepare(selection) {
+            const {title, index, images, markedImages, videos} = selection;
+            return {
+                title,
+                subtitle: `Media Count: ${images.length + markedImages.length + videos.length}`,
+                media: () => `Echo ${index}`,
+            };
+        },
+    },
 });
