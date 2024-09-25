@@ -24,11 +24,51 @@ async function processQuestions(inputType: InputType, fullOrTest: string) {
             videos: [],
         };
 
-        const correctAnswersDeprecated: {h2?: any; ul?: any; ol?: any} = {};
-        const {h2, ul, ol, ...restExplanation} = parser.parse(explanation);
-        correctAnswersDeprecated.h2 = h2;
-        correctAnswersDeprecated.ul = ul;
-        correctAnswersDeprecated.ol = ol;
+        const parsedExplanation = parser.parse(explanation);
+        const textBlocks = [];
+        const deprecatedBlocks = [];
+        for (const key in parsedExplanation) {
+            if (Object.prototype.hasOwnProperty.call(parsedExplanation, key)) {
+                const value = parsedExplanation[key];
+                if (key === 'h2') {
+                    deprecatedBlocks.push({
+                        _type: 'block',
+                        style: key,
+                        children: [
+                            {
+                                _type: 'span',
+                                text: value,
+                            },
+                        ],
+                    });
+                } else if (key === 'ul' || key === 'ol') {
+                    const listType = key === 'ol' ? 'number' : 'bullet';
+
+                    value.li.forEach((item: string) => {
+                        deprecatedBlocks.push({
+                            _type: 'block',
+                            listItem: listType,
+                            children: [
+                                {
+                                    _type: 'span',
+                                    text: item,
+                                },
+                            ],
+                        });
+                    });
+                } else {
+                    textBlocks.push({
+                        _type: 'block',
+                        children: [
+                            {
+                                _type: 'span',
+                                text: value,
+                            },
+                        ],
+                    });
+                }
+            }
+        }
 
         Object.entries(restProps).forEach(([key, value]) => {
             if (mediaProperties.includes(key)) {
@@ -61,10 +101,10 @@ async function processQuestions(inputType: InputType, fullOrTest: string) {
             index,
             questionType: question_type,
             title,
-            text: restExplanation,
+            text: textBlocks,
             legacyId: id,
             secondaryText: secondary_text,
-            correctAnswersDeprecated,
+            correctAnswersDeprecated: deprecatedBlocks,
             ...restOutProps,
         };
     });
