@@ -17,7 +17,6 @@
     "dependencies": {
         "@sanity/vision": "^3.57.4",
         "axios": "^1.7.7",
-        "dotenv": "^16.4.5",
         "fast-xml-parser": "^4.5.0",
         "ndjson": "^2.0.0",
         "react": "^18.2.0",
