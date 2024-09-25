@@ -747,4 +747,22 @@ export default defineType({
             validation: (Rule) => Rule.positive(),
         }),
     ],
+    preview: {
+        select: {
+            title: 'index',
+            subtitle: 'title',
+            images: 'images',
+            markedImages: 'markedImages',
+            videos: 'videos',
+        },
+        prepare(selection) {
+            const {title, subtitle, images, markedImages, videos} = selection;
+            return {
+                title: subtitle,
+                subtitle: `Media Count: ${images.length + markedImages.length + videos.length} (${images.length}img ${videos.length}vid ${markedImages.length}mrkd)`,
+                media: () => `ECG ${title}`,
+                // media: (images && images[0]) || undefined,
+            };
+        },
+    },
 });
