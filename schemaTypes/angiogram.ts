@@ -1,6 +1,6 @@
 import {defineType, defineField} from 'sanity';
 
-import {sharedQuestionFields, sharedQuestionFieldsets} from './sharedQuestionFields';
+import {sharedQuestionFields, sharedQuestionFieldsets} from './_sharedQuestionFields';
 
 export default defineType({
     title: 'Angiogram Question',
