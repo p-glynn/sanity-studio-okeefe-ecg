@@ -75,6 +75,12 @@ export const sharedQuestionFields = [
         of: [{type: 'file'}],
         fieldset: 'mediaFields',
     }),
+    defineField({
+        name: 'numericIndex',
+        title: 'Numeric Index',
+        type: 'number',
+        hidden: true,
+    }),
 ];
 
 export const sharedQuestionFieldsets = [
