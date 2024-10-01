@@ -15,6 +15,7 @@
         "sanity"
     ],
     "dependencies": {
+        "@sanity/dashboard": "^4.0.0",
         "@sanity/vision": "^3.57.4",
         "axios": "^1.7.7",
         "dotenv": "^16.4.5",
