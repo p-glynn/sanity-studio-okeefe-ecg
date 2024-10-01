@@ -50,8 +50,6 @@ export default defineType({
         },
     ],
     fields: [
-        // base fields (title, text, images, videos, etc.)
-        ...sharedQuestionFields,
         defineField({
             title: 'Question Number (Index)',
             name: 'index',
@@ -59,6 +57,8 @@ export default defineType({
             description: 'The question number (index) for this QBank question (e.g. "1", "2A", "2B", "3", etc.)',
             validation: (Rule) => Rule.required().regex(/^[0-9A-Z]+$/),
         }),
+        // base fields (title, text, images, videos, etc.)
+        ...sharedQuestionFields,
         // question 1 fields
         defineField({
             name: 'q1Text',
