@@ -27,4 +27,13 @@ export const structure: StructureResolver = (S) =>
                         .schemaType('echo')
                         .filter('_type == "echo"')
                 ),
+            S.listItem()
+                .title('QBank')
+                .child(
+                    S.documentList()
+                        .apiVersion('2024-06-01')
+                        .title('QBank')
+                        .schemaType('qbank')
+                        .filter('_type == "qbank"')
+                ),
         ]);
