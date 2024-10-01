@@ -758,9 +758,9 @@ export default defineType({
         prepare(selection) {
             const {title, index, images, markedImages, videos} = selection;
             return {
-                title,
-                subtitle: `Media Count: ${images.length + markedImages.length + videos.length}`,
-                media: () => `ECG ${index}`,
+                title: `ECG ${index}`,
+                subtitle: title,
+                media: () => `${images.length + markedImages.length + videos.length}`,
             };
         },
     },

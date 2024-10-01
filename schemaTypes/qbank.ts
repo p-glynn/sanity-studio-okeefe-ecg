@@ -402,8 +402,8 @@ export default defineType({
             const {title, index, images, markedImages, videos} = selection;
             return {
                 title: `QBank ${index}`,
-                subtitle: ` ${title}`,
-                media: () => `${images.length + markedImages.length + videos.length}`,
+                subtitle: title,
+                media: () => images.length + markedImages.length + videos.length,
             };
         },
     },
