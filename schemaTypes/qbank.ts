@@ -407,4 +407,16 @@ export default defineType({
             };
         },
     },
+    orderings: [
+        {
+            title: 'Index (Descending - Newest First)',
+            name: 'ecgIndexDesc',
+            by: [{field: 'numericIndex', direction: 'desc'}],
+        },
+        {
+            title: 'Index (Ascending - Oldest First)',
+            name: 'ecgIndexAsc',
+            by: [{field: 'numericIndex', direction: 'asc'}],
+        },
+    ],
 });
