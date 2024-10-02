@@ -45,11 +45,11 @@ export interface WPResponse {
 export interface Question extends OptionalMediaProps<typeof mediaProperties> {
     id: number;
     question_title: string;
-    question_type: string;
+    question_type: string | undefined;
     explanation: string;
     secondary_text?: string;
 }
 
 type OptionalMediaProps<T extends readonly string[]> = {
-    [K in T[number]]?: string | number;
+    [K in T[number]]?: string | number | undefined;
 };
